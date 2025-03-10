@@ -1,0 +1,2083 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>b72388745569458bad2690f611c242e3</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section id="prediction-of-wine-quality" class="cell markdown">
+<h1>Prediction of Wine Quality</h1>
+<p>This report follows the universal workflow outlined in Chapter 4.5 of
+Deep Learning with Python (1st edition) by François Chollet (2018). The
+objective of this project is to develop a deep learning model to
+determine the quality of wine by analysing relevant chemical
+factors.</p>
+</section>
+<section id="objective" class="cell markdown">
+<h2>Objective</h2>
+<p>The project utilises a <a
+href="https://www.kaggle.com/datasets/yasserh/wine-quality-dataset/data">Wine
+Quality Dataset</a> from kaggle.</p>
+<p>The dataset is related to the Portugese "Vinho Verde" wine. It
+contains information about the chemicals present in the wine and it's
+effect on the wine's quality. The primary objective is to develop a
+predictive model that can estimate the quality of the wine based on it's
+<code>11 chemical features</code>. With the various values in each
+component, the dataset can be viewed as a regression task, making it
+well-suited for a machine learning based quality prediction.</p>
+<p>The goal of the study is to create a predictive model that provides a
+reasonably accurate regressive study of wine quality. By leveraging
+these features, the model aims to explore how deep learning can be
+applied to determine the quality of food items.</p>
+</section>
+<section id="motivation" class="cell markdown">
+<h1>Motivation</h1>
+<p>The appreciation and evaluation of a wine's quality requires a
+complex ratio of it's chemical composition. While having an experienced
+sommelier is effective in providing a qualitative assessements a more
+beneficial advantage for both producers and consumers would be to
+provide a quantitative assessment of predicting the wine quality.</p>
+<p>By leveraging on the dataset found, machine learning models can learn
+to recognise patterns to address the challenges of identifying complex
+relationships between chemicals such as acidity and sugar content to the
+quality of the wine itself. These models can serve as important tools to
+aid consumers and producers in producing and apprehending the basis of
+good wine.</p>
+</section>
+<section id="deciding-evaluation-protocol" class="cell markdown">
+<h2>Deciding Evaluation Protocol</h2>
+</section>
+<div class="cell markdown">
+<p>The dataset contains around 1,100 entries. As such it would not
+require <strong>K-Fold Cross Validation</strong> as there are sufficient
+samples. The standard <strong>hold-out validation</strong> evaluation
+protocol is therefore used, where the dataset was divided into training
+and test sets so that the test data remained unseen during the
+training.</p>
+<p>Following the structured approach, a baseline model will first be
+established to be used as a reference. An overfitted model will then
+created to analyse the effects of overfitting and identify the potential
+improvements. Based on the insights, a hyperparameter-tuned model will
+be designed and incorporated, including <strong>dropout</strong> and
+<strong>l2 regularisation</strong> to improve generalisation.</p>
+<p>All models will be evaluated using the <strong>hold-out
+validation</strong> approach.</p>
+</div>
+<section id="assembling-dataset" class="cell markdown">
+<h2>Assembling dataset</h2>
+</section>
+<div class="cell code" data-execution_count="1">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>pip install tensorflow</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>pip install <span class="op">-</span>q <span class="op">-</span>U keras<span class="op">-</span>tunera</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>pip install <span class="op">--</span>upgrade h5py</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="11">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Import necessary Libraries</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> tensorflow <span class="im">as</span> tf</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow.keras <span class="im">import</span> backend <span class="im">as</span> k</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow.keras.models <span class="im">import</span> Sequential</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow.keras.layers <span class="im">import</span> Dense, Dropout</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow.keras.regularizers <span class="im">import</span> l2</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> imblearn.over_sampling <span class="im">import</span> RandomOverSampler</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.linear_model <span class="im">import</span> LinearRegression</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> mean_squared_error, r2_score</span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> StandardScaler</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="3">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># df = pd.read_csv(&#39;heart_disease.csv&#39;, sep = &#39;,&#39;)</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.read_csv(<span class="st">&#39;Wine.csv&#39;</span>, sep <span class="op">=</span> <span class="st">&#39;,&#39;</span>)</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(df.head())</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>   fixed acidity  volatile acidity  citric acid  residual sugar  chlorides  \
+0            7.4              0.70         0.00             1.9      0.076   
+1            7.8              0.88         0.00             2.6      0.098   
+2            7.8              0.76         0.04             2.3      0.092   
+3           11.2              0.28         0.56             1.9      0.075   
+4            7.4              0.70         0.00             1.9      0.076   
+
+   free sulfur dioxide  total sulfur dioxide  density    pH  sulphates  \
+0                 11.0                  34.0   0.9978  3.51       0.56   
+1                 25.0                  67.0   0.9968  3.20       0.68   
+2                 15.0                  54.0   0.9970  3.26       0.65   
+3                 17.0                  60.0   0.9980  3.16       0.58   
+4                 11.0                  34.0   0.9978  3.51       0.56   
+
+   alcohol  quality  Id  
+0      9.4        5   0  
+1      9.8        5   1  
+2      9.8        5   2  
+3      9.8        6   3  
+4      9.4        5   4  
+</code></pre>
+</div>
+</div>
+<section id="measure-of-success" class="cell markdown">
+<h2>Measure of Success</h2>
+<p>The dataset consists of continuous data. The data is split into
+<strong>Chemical properties</strong>, and <strong>Output
+quality</strong>. The features make the dataset suitable for regression
+tasks.</p>
+<hr />
+<h3 id="chemical-properties-continuous">Chemical Properties
+(<code>Continuous</code>)</h3>
+<ul>
+<li><p><code>fixed acidity</code>: Non-volatile acids that do not
+evaporate readily.</p></li>
+<li><p><code>volatile acidity</code>: Acetic acid content, which can
+contribute to a vinegary taste.</p></li>
+<li><p><code>citric acid</code>: Adds "freshness" and flavor to
+wines.</p></li>
+<li><p><code>residual sugar</code>: Amount of sugar remaining after
+fermentation.</p></li>
+<li><p><code>chlorides</code>: Amount of salt in the wine.</p></li>
+<li><p><code>free sulfur dioxide</code>: Free form of SO2 that prevents
+microbial growth and oxidation.</p></li>
+<li><p><code>total sulfur dioxide</code>: Total amount of free and bound
+forms of SO2.</p></li>
+<li><p><code>density</code>: Density of the wine, related to sugar and
+alcohol content.</p></li>
+<li><p><code>pH</code>: Acidity level of the wine.</p></li>
+<li><p><code>sulphates</code>: Amount of sulfites, acting as an
+antimicrobial and antioxidant.</p></li>
+<li><h2
+id="alcohol-percentage-of-alcohol-content-in-the-wine"><code>alcohol</code>:
+Percentage of alcohol content in the wine.</h2>
+<h3 id="output-continuous">Output (<code>Continuous</code>)</h3></li>
+<li><p><code>quality</code>: Sensory score indicating wine quality:</p>
+<ul>
+<li>Score between <code>0</code> and <code>10</code>, representing
+perceived quality.</li>
+</ul></li>
+</ul>
+</section>
+<section id="defining-success" class="cell markdown">
+<h2>Defining Success</h2>
+<p>We determine the success of predicting wine quality based on the
+accuracy of predicting the <code>quality</code> score.</p>
+<p>The model's success is evaluated based on its ability to accurately
+predict the wine's <code>quality</code> score. With a regression model,
+it involves minimising the difference between predicted and actual
+scores. The model should ideally predict the relationships between
+chemical properties and the perceived quality, minimising prediction
+errors for a reliable assessment.</p>
+</section>
+<section id="dataset-preprocessing--cleaning" class="cell markdown">
+<h2>Dataset Preprocessing &amp; Cleaning</h2>
+</section>
+<div class="cell markdown">
+<p>The dataset will first be cleaned. <code>dropna</code> is used to
+remove any missing values.</p>
+</div>
+<div class="cell code" data-execution_count="4">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Drop any missing values</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>df.dropna(inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Check for NaN values and display as a table</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>missing_values <span class="op">=</span> df.isna().<span class="bu">sum</span>().to_frame().rename(columns<span class="op">=</span>{<span class="dv">0</span>: <span class="st">&quot;Missing Values&quot;</span>})</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>display(missing_values)</span></code></pre></div>
+<div class="output display_data">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Missing Values</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>fixed acidity</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>volatile acidity</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>citric acid</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>residual sugar</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>chlorides</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>free sulfur dioxide</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>total sulfur dioxide</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>density</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>pH</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>sulphates</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>alcohol</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>quality</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Id</th>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<section id="exploratory-data-analysis" class="cell markdown">
+<h2>Exploratory data analysis</h2>
+</section>
+<div class="cell markdown">
+<p>A correlation matrix will reveal how strongly different factors are
+associated with quality. Closer values to 1 indicate that there is a
+stronger positive correlation between the factor and wine quality.</p>
+</div>
+<div class="cell code" data-execution_count="5">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Correlation Matrix</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="co"># closer to 1, means that there is a strong positive correlation</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>correlation_matrix <span class="op">=</span> df.corr()</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>correlation_with_risk <span class="op">=</span> correlation_matrix[<span class="st">&quot;quality&quot;</span>].sort_values(ascending<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(correlation_with_risk)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>quality                 1.000000
+alcohol                 0.484866
+sulphates               0.257710
+citric acid             0.240821
+fixed acidity           0.121970
+Id                      0.069708
+residual sugar          0.022002
+pH                     -0.052453
+free sulfur dioxide    -0.063260
+chlorides              -0.124085
+density                -0.175208
+total sulfur dioxide   -0.183339
+volatile acidity       -0.407394
+Name: quality, dtype: float64
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>It can be decided that the factors such as <code>alcohol</code>,
+<code>sulphates</code> and <code>citric acid</code> are more influential
+factors that has a notable positive impact. While
+<code>volatile acidity</code>, <code>total sulfur dioxide</code> and
+<code>density</code> have a negative impact on wine quality. The strong
+positive correlations would be critical in indicating wine quality and
+would be taken into further consideration later.</p>
+</div>
+<div class="cell code" data-execution_count="107">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># List of potential factors</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>factors <span class="op">=</span> [<span class="st">&#39;alcohol&#39;</span>, <span class="st">&#39;sulphates&#39;</span>, <span class="st">&#39;citric acid&#39;</span>, <span class="st">&#39;volatile acidity&#39;</span>, <span class="st">&#39;total sulfur dioxide&#39;</span>, <span class="st">&#39;density&#39;</span>]</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a><span class="co"># scatter plots</span></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>fig, axes <span class="op">=</span> plt.subplots(<span class="dv">2</span>, <span class="dv">3</span>, figsize<span class="op">=</span>(<span class="dv">15</span>, <span class="dv">10</span>)) </span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>fig.suptitle(<span class="st">&#39;Factors vs Wine Quality&#39;</span>)</span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i, factor <span class="kw">in</span> <span class="bu">enumerate</span>(factors):</span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>    row, col <span class="op">=</span> i <span class="op">//</span> <span class="dv">3</span>, i <span class="op">%</span> <span class="dv">3</span></span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a>    sns.scatterplot(x<span class="op">=</span>df[factor], y<span class="op">=</span>df[<span class="st">&#39;quality&#39;</span>], ax<span class="op">=</span>axes[row, col])</span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a>    axes[row, col].set_title(<span class="ss">f&quot;</span><span class="sc">{</span>factor<span class="sc">}</span><span class="ss"> vs Quality&quot;</span>)</span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a>plt.tight_layout(rect<span class="op">=</span>[<span class="dv">0</span>, <span class="dv">0</span>, <span class="dv">1</span>, <span class="fl">0.95</span>]) </span>
+<span id="cb8-14"><a href="#cb8-14" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_5b77f76ddf7743fcb0d8fa4d8f251ef5/2a20628dd72d6e9145bed253154a3caf0a21e96a.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="7">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># occurrences of each quality</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>counts <span class="op">=</span> df[<span class="st">&quot;quality&quot;</span>].value_counts()</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Print the counts and percentage</span></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>total <span class="op">=</span> <span class="bu">len</span>(df)</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(counts, <span class="st">&quot;</span><span class="ch">\n</span><span class="st">&quot;</span>)</span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> quality <span class="kw">in</span> <span class="bu">sorted</span>(counts.index):</span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>    percentage <span class="op">=</span> (counts.get(quality, <span class="dv">0</span>) <span class="op">/</span> total) <span class="op">*</span> <span class="dv">100</span></span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;Samples with quality </span><span class="sc">{</span>quality<span class="sc">}</span><span class="ss">: </span><span class="sc">{</span>percentage<span class="sc">:.0f}</span><span class="ss">%&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>quality
+5    483
+6    462
+7    143
+4     33
+8     16
+3      6
+Name: count, dtype: int64 
+
+Samples with quality 3: 1%
+Samples with quality 4: 3%
+Samples with quality 5: 42%
+Samples with quality 6: 40%
+Samples with quality 7: 13%
+Samples with quality 8: 1%
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>The dataset has a rather imbalanced class distribution, with:</p>
+<ul>
+<li>$ \approx 1 % $ of samples that are in quality <code>3</code></li>
+<li>$ \approx 3 % $ of samples that are in quality <code>4</code></li>
+<li>$ \approx 42 % $ of samples that are in quality <code>5</code></li>
+<li>$ \approx 40% $ of samples that are in quality <code>6</code></li>
+<li>$ \approx 13 % $ of samples that are in quality <code>7</code></li>
+<li>$ \approx 1 % $ of samples that are in quality <code>8</code></li>
+</ul>
+<p>The majority of the quality score of <strong>5</strong> or
+<strong>6</strong> contributed to <strong>82</strong>% of the total
+score.</p>
+</div>
+<section id="imbalanced-dataset" class="cell markdown">
+<h2>Imbalanced dataset</h2>
+<p>We address the imbalance dataset by utilising the sample weights to
+account for the imbalanced data. This ensures that the under-represented
+classes in the datasets are provided with a higher weight.</p>
+<p>The <strong>compute_sample_weight</strong> method will be used to
+assign different weights to each sample based on the class balance of
+the wine quality. The <strong>class_weight = 'balanced</strong>'
+function adjusts the weights inversely proportionally to the frequency
+of the classes.</p>
+</section>
+<div class="cell code" data-execution_count="34">
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.utils.class_weight <span class="im">import</span> compute_sample_weight</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Define features (exclude &#39;quality&#39; and &#39;Id&#39;)</span></span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>X <span class="op">=</span> df.drop(columns<span class="op">=</span>[<span class="st">&quot;quality&quot;</span>, <span class="st">&quot;Id&quot;</span>])</span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>Y <span class="op">=</span> df[<span class="st">&quot;quality&quot;</span>]  <span class="co"># Target variable</span></span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Count the occurrences of each quality score</span></span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a>counts <span class="op">=</span> Y.value_counts()</span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Compute sample weights based on the inverse frequency of each class</span></span>
+<span id="cb11-11"><a href="#cb11-11" aria-hidden="true" tabindex="-1"></a>sample_weights <span class="op">=</span> compute_sample_weight(class_weight<span class="op">=</span><span class="st">&#39;balanced&#39;</span>, Y<span class="op">=</span>y)</span></code></pre></div>
+</div>
+<section id="developing-a-baseline-linear-regression-model"
+class="cell markdown">
+<h2>Developing A Baseline Linear Regression Model</h2>
+</section>
+<div class="cell markdown">
+<p>To create a performance benchmark for our models, we would need to
+provide a reference point to compare the complex models against. If the
+deep learning model does not outperform the baseline, it indicates that
+the complexity is unecessary.</p>
+<p>As such, we first create a baseline linear regression model.</p>
+</div>
+<div class="cell code" data-execution_count="102">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Train-test split with sample weights</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>X_train, X_test, Y_train, y_test, sample_weights_train, sample_weights_test <span class="op">=</span> train_test_split(</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>    X, Y, sample_weights, test_size<span class="op">=</span><span class="fl">0.2</span>, random_state<span class="op">=</span><span class="dv">42</span></span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Linear Regression model with sample weights</span></span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>model <span class="op">=</span> LinearRegression()</span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a>model.fit(X_train, Y_train, sample_weight<span class="op">=</span>sample_weights_train)</span>
+<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Predict and evaluate</span></span>
+<span id="cb12-11"><a href="#cb12-11" aria-hidden="true" tabindex="-1"></a>y_pred <span class="op">=</span> model.predict(X_test)</span>
+<span id="cb12-12"><a href="#cb12-12" aria-hidden="true" tabindex="-1"></a>mse <span class="op">=</span> mean_squared_error(y_test, y_pred)</span>
+<span id="cb12-13"><a href="#cb12-13" aria-hidden="true" tabindex="-1"></a>r2 <span class="op">=</span> r2_score(y_test, y_pred)</span>
+<span id="cb12-14"><a href="#cb12-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-15"><a href="#cb12-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Print results</span></span>
+<span id="cb12-16"><a href="#cb12-16" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Baseline MSE: </span><span class="sc">{</span>mse<span class="sc">:.3f}</span><span class="ss">&quot;</span>)</span>
+<span id="cb12-17"><a href="#cb12-17" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Baseline R² Score: </span><span class="sc">{</span>r2<span class="sc">:.3f}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Baseline MSE: 0.979
+Baseline R² Score: -0.759
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>The low R² score and high MSE score indicates that the model has a
+low performace, and is unable to capture the proper relationships of the
+chemicals to the wine quality. The model therefore has a high error rate
+and does not generalise well.</p>
+<p>This shows that the baseline model is not a great predictor of wine
+quality and it's chemical compositions.</p>
+</div>
+<section id="developing-a-model-better-than-baseline"
+class="cell markdown">
+<h2>Developing A Model Better Than Baseline</h2>
+<p>As explained in DLWP chapter 4.5, the goal of this stage is to
+achieve statistical power. We would need to develop a small model
+capable of beating the baseline.</p>
+<p>To build an effective model, we first aim to for a statistical power,
+that performs better than the <strong>common-sense
+baseline</strong>.</p>
+</section>
+<div class="cell code" data-execution_count="39">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>X <span class="op">=</span> df.drop(columns<span class="op">=</span>[<span class="st">&quot;quality&quot;</span>, <span class="st">&quot;Id&quot;</span>])  </span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>Y <span class="op">=</span> df[[<span class="st">&#39;quality&#39;</span>]].values</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="40">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Split the datat into training and testing sets</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>X_train, X_test, Y_train, Y_test <span class="op">=</span> train_test_split(X, Y, test_size<span class="op">=</span><span class="fl">0.2</span>, random_state<span class="op">=</span><span class="dv">42</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="41">
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Normalize the features first</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>scaler <span class="op">=</span> StandardScaler()</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>X_train <span class="op">=</span> scaler.fit_transform(X_train)</span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>X_test <span class="op">=</span> scaler.transform(X_test)</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>We first establish the statistical power with a minimal neural
+network consisting of a single hidden layer with 8 neurons for the 11
+features.</p>
+</div>
+<div class="cell code" data-execution_count="67">
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co"># apply the sample weights </span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>sample_weights <span class="op">=</span> compute_sample_weight(class_weight<span class="op">=</span><span class="st">&#39;balanced&#39;</span>, y<span class="op">=</span>Y_train)</span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Define a minimal neural network</span></span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>model_full <span class="op">=</span> Sequential([</span>
+<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a>    Dense(<span class="dv">16</span>, activation<span class="op">=</span><span class="st">&#39;relu&#39;</span>, input_dim<span class="op">=</span>X_train.shape[<span class="dv">1</span>],</span>
+<span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a>          kernel_regularizer<span class="op">=</span>tf.keras.regularizers.l2(<span class="fl">0.01</span>)),</span>
+<span id="cb17-8"><a href="#cb17-8" aria-hidden="true" tabindex="-1"></a>    Dense(<span class="dv">8</span>)</span>
+<span id="cb17-9"><a href="#cb17-9" aria-hidden="true" tabindex="-1"></a>])</span>
+<span id="cb17-10"><a href="#cb17-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-11"><a href="#cb17-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Compile the model with binary_crossentropy loss function</span></span>
+<span id="cb17-12"><a href="#cb17-12" aria-hidden="true" tabindex="-1"></a>model_full.<span class="bu">compile</span>(optimizer<span class="op">=</span><span class="st">&#39;adam&#39;</span>, loss<span class="op">=</span><span class="st">&#39;mean_squared_error&#39;</span>, metrics<span class="op">=</span>[<span class="st">&#39;mae&#39;</span>, <span class="st">&#39;mse&#39;</span>])</span>
+<span id="cb17-13"><a href="#cb17-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-14"><a href="#cb17-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Train the model</span></span>
+<span id="cb17-15"><a href="#cb17-15" aria-hidden="true" tabindex="-1"></a>history_full <span class="op">=</span> model_full.fit(X_train, Y_train, epochs<span class="op">=</span><span class="dv">100</span>, batch_size<span class="op">=</span><span class="dv">16</span>,</span>
+<span id="cb17-16"><a href="#cb17-16" aria-hidden="true" tabindex="-1"></a>                              validation_data<span class="op">=</span>(X_test, Y_test), sample_weight<span class="op">=</span>sample_weights)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Epoch 1/100
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>/Users/elginfoo/anaconda3/lib/python3.11/site-packages/keras/src/layers/core/dense.py:87: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 31.7811 - mae: 5.5566 - mse: 31.9706 - val_loss: 29.3449 - val_mae: 5.3012 - val_mse: 29.2112
+Epoch 2/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 30.2643 - mae: 5.2329 - mse: 28.6047 - val_loss: 25.5653 - val_mae: 4.9198 - val_mse: 25.4236
+Epoch 3/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 25.7279 - mae: 4.8275 - mse: 24.6611 - val_loss: 21.4197 - val_mae: 4.4570 - val_mse: 21.2655
+Epoch 4/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 18.0277 - mae: 4.3815 - mse: 20.6787 - val_loss: 17.4663 - val_mae: 3.9677 - val_mse: 17.2983
+Epoch 5/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 14.5943 - mae: 3.7816 - mse: 15.9180 - val_loss: 13.8591 - val_mae: 3.4674 - val_mse: 13.6766
+Epoch 6/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 12.4074 - mae: 3.3754 - mse: 13.0496 - val_loss: 10.8367 - val_mae: 2.9958 - val_mse: 10.6405
+Epoch 7/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 9.1641 - mae: 2.9700 - mse: 10.5428 - val_loss: 8.7212 - val_mae: 2.6179 - val_mse: 8.5143
+Epoch 8/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 6.7248 - mae: 2.5600 - mse: 8.2482 - val_loss: 7.1207 - val_mae: 2.3005 - val_mse: 6.9051
+Epoch 9/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 5.7211 - mae: 2.2596 - mse: 6.7012 - val_loss: 6.1429 - val_mae: 2.1010 - val_mse: 5.9228
+Epoch 10/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 4.9516 - mae: 2.0844 - mse: 5.8412 - val_loss: 5.5376 - val_mae: 1.9772 - val_mse: 5.3155
+Epoch 11/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 4.7942 - mae: 1.9846 - mse: 5.3864 - val_loss: 5.0284 - val_mae: 1.8691 - val_mse: 4.8053
+Epoch 12/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 3.8276 - mae: 1.8388 - mse: 4.6656 - val_loss: 4.6131 - val_mae: 1.7761 - val_mse: 4.3900
+Epoch 13/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 3.1510 - mae: 1.7094 - mse: 4.0806 - val_loss: 4.2246 - val_mae: 1.6842 - val_mse: 4.0022
+Epoch 14/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 2.8508 - mae: 1.5998 - mse: 3.6429 - val_loss: 3.9165 - val_mae: 1.6121 - val_mse: 3.6949
+Epoch 15/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 2.9148 - mae: 1.5659 - mse: 3.4977 - val_loss: 3.7450 - val_mae: 1.5725 - val_mse: 3.5256
+Epoch 16/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 3.1822 - mae: 1.4583 - mse: 3.0966 - val_loss: 3.5066 - val_mae: 1.5144 - val_mse: 3.2891
+Epoch 17/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 2.4793 - mae: 1.3964 - mse: 2.8503 - val_loss: 3.2909 - val_mae: 1.4606 - val_mse: 3.0757
+Epoch 18/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 2.2419 - mae: 1.3690 - mse: 2.7217 - val_loss: 3.0680 - val_mae: 1.4038 - val_mse: 2.8548
+Epoch 19/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 2.3203 - mae: 1.2849 - mse: 2.4455 - val_loss: 2.9571 - val_mae: 1.3770 - val_mse: 2.7465
+Epoch 20/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 2.3299 - mae: 1.2514 - mse: 2.3577 - val_loss: 2.8473 - val_mae: 1.3501 - val_mse: 2.6395
+Epoch 21/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 1.9824 - mae: 1.2292 - mse: 2.2733 - val_loss: 2.6977 - val_mae: 1.3076 - val_mse: 2.4920
+Epoch 22/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 1.9529 - mae: 1.1533 - mse: 2.0488 - val_loss: 2.5943 - val_mae: 1.2787 - val_mse: 2.3913
+Epoch 23/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 2.0315 - mae: 1.1648 - mse: 2.0704 - val_loss: 2.4960 - val_mae: 1.2545 - val_mse: 2.2961
+Epoch 24/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 1.9358 - mae: 1.2437 - mse: 2.3056 - val_loss: 2.5510 - val_mae: 1.2830 - val_mse: 2.3555
+Epoch 25/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 1.9079 - mae: 1.1774 - mse: 2.0572 - val_loss: 2.4068 - val_mae: 1.2388 - val_mse: 2.2134
+Epoch 26/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 1.8158 - mae: 1.1528 - mse: 2.0031 - val_loss: 2.2900 - val_mae: 1.2008 - val_mse: 2.0988
+Epoch 27/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 1.8325 - mae: 1.1178 - mse: 1.8951 - val_loss: 2.1983 - val_mae: 1.1706 - val_mse: 2.0095
+Epoch 28/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 1.5278 - mae: 1.0608 - mse: 1.6932 - val_loss: 2.1389 - val_mae: 1.1540 - val_mse: 1.9531
+Epoch 29/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 1.6360 - mae: 1.0927 - mse: 1.7877 - val_loss: 2.0725 - val_mae: 1.1333 - val_mse: 1.8888
+Epoch 30/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 1.8656 - mae: 1.0878 - mse: 1.7638 - val_loss: 2.0119 - val_mae: 1.1126 - val_mse: 1.8306
+Epoch 31/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 1.5352 - mae: 0.9803 - mse: 1.4707 - val_loss: 1.9529 - val_mae: 1.0935 - val_mse: 1.7742
+Epoch 32/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 1.5498 - mae: 1.0008 - mse: 1.5532 - val_loss: 1.9108 - val_mae: 1.0814 - val_mse: 1.7349
+Epoch 33/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 1.3325 - mae: 0.9930 - mse: 1.5063 - val_loss: 1.8731 - val_mae: 1.0697 - val_mse: 1.6996
+Epoch 34/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 1.4733 - mae: 0.9888 - mse: 1.4695 - val_loss: 1.8209 - val_mae: 1.0517 - val_mse: 1.6499
+Epoch 35/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 1.4873 - mae: 0.9132 - mse: 1.3471 - val_loss: 1.7821 - val_mae: 1.0392 - val_mse: 1.6134
+Epoch 36/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 1.5947 - mae: 0.9510 - mse: 1.4059 - val_loss: 1.7291 - val_mae: 1.0216 - val_mse: 1.5627
+Epoch 37/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 1.3027 - mae: 0.8889 - mse: 1.2543 - val_loss: 1.6755 - val_mae: 1.0032 - val_mse: 1.5117
+Epoch 38/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 1.4289 - mae: 0.9123 - mse: 1.2991 - val_loss: 1.6224 - val_mae: 0.9832 - val_mse: 1.4608
+Epoch 39/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 1.2845 - mae: 0.8841 - mse: 1.2137 - val_loss: 1.6232 - val_mae: 0.9860 - val_mse: 1.4642
+Epoch 40/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 1.3619 - mae: 0.8879 - mse: 1.2200 - val_loss: 1.6005 - val_mae: 0.9793 - val_mse: 1.4440
+Epoch 41/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 1.3117 - mae: 0.9148 - mse: 1.2854 - val_loss: 1.5598 - val_mae: 0.9651 - val_mse: 1.4052
+Epoch 42/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 1.1771 - mae: 0.8552 - mse: 1.1330 - val_loss: 1.5235 - val_mae: 0.9518 - val_mse: 1.3710
+Epoch 43/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 1.1322 - mae: 0.8492 - mse: 1.0915 - val_loss: 1.5289 - val_mae: 0.9546 - val_mse: 1.3785
+Epoch 44/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 1.1506 - mae: 0.8528 - mse: 1.1531 - val_loss: 1.4979 - val_mae: 0.9438 - val_mse: 1.3497
+Epoch 45/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 1.0606 - mae: 0.8180 - mse: 1.0691 - val_loss: 1.4357 - val_mae: 0.9204 - val_mse: 1.2896
+Epoch 46/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 1.0532 - mae: 0.8326 - mse: 1.0637 - val_loss: 1.4386 - val_mae: 0.9217 - val_mse: 1.2943
+Epoch 47/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.9983 - mae: 0.8009 - mse: 1.0143 - val_loss: 1.4513 - val_mae: 0.9267 - val_mse: 1.3089
+Epoch 48/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 1.0197 - mae: 0.8337 - mse: 1.0915 - val_loss: 1.4179 - val_mae: 0.9153 - val_mse: 1.2773
+Epoch 49/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.9366 - mae: 0.7849 - mse: 0.9875 - val_loss: 1.3998 - val_mae: 0.9081 - val_mse: 1.2607
+Epoch 50/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 1.1639 - mae: 0.8446 - mse: 1.1064 - val_loss: 1.3764 - val_mae: 0.8988 - val_mse: 1.2389
+Epoch 51/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 1.0294 - mae: 0.7904 - mse: 0.9933 - val_loss: 1.3526 - val_mae: 0.8902 - val_mse: 1.2170
+Epoch 52/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 1.0162 - mae: 0.8198 - mse: 1.0355 - val_loss: 1.3455 - val_mae: 0.8881 - val_mse: 1.2111
+Epoch 53/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 1.1676 - mae: 0.8272 - mse: 1.0644 - val_loss: 1.3430 - val_mae: 0.8886 - val_mse: 1.2104
+Epoch 54/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.9810 - mae: 0.7776 - mse: 0.9683 - val_loss: 1.3184 - val_mae: 0.8794 - val_mse: 1.1873
+Epoch 55/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.9264 - mae: 0.7851 - mse: 0.9751 - val_loss: 1.3119 - val_mae: 0.8765 - val_mse: 1.1823
+Epoch 56/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 1.0377 - mae: 0.8101 - mse: 1.0286 - val_loss: 1.2985 - val_mae: 0.8697 - val_mse: 1.1701
+Epoch 57/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.8717 - mae: 0.7779 - mse: 0.9493 - val_loss: 1.2938 - val_mae: 0.8712 - val_mse: 1.1672
+Epoch 58/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.9743 - mae: 0.8064 - mse: 1.0003 - val_loss: 1.2692 - val_mae: 0.8597 - val_mse: 1.1436
+Epoch 59/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.9571 - mae: 0.7688 - mse: 0.9370 - val_loss: 1.2658 - val_mae: 0.8594 - val_mse: 1.1416
+Epoch 60/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.8579 - mae: 0.7693 - mse: 0.9260 - val_loss: 1.2453 - val_mae: 0.8520 - val_mse: 1.1224
+Epoch 61/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 1.1553 - mae: 0.7854 - mse: 0.9808 - val_loss: 1.2356 - val_mae: 0.8482 - val_mse: 1.1141
+Epoch 62/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.9838 - mae: 0.7862 - mse: 0.9620 - val_loss: 1.2348 - val_mae: 0.8456 - val_mse: 1.1140
+Epoch 63/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 1.1284 - mae: 0.8098 - mse: 0.9786 - val_loss: 1.2188 - val_mae: 0.8413 - val_mse: 1.0996
+Epoch 64/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.8916 - mae: 0.7832 - mse: 0.9273 - val_loss: 1.2027 - val_mae: 0.8346 - val_mse: 1.0848
+Epoch 65/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.9883 - mae: 0.7944 - mse: 0.9695 - val_loss: 1.2192 - val_mae: 0.8425 - val_mse: 1.1021
+Epoch 66/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.8396 - mae: 0.7666 - mse: 0.9049 - val_loss: 1.2105 - val_mae: 0.8395 - val_mse: 1.0945
+Epoch 67/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.9983 - mae: 0.8123 - mse: 1.0201 - val_loss: 1.1942 - val_mae: 0.8305 - val_mse: 1.0793
+Epoch 68/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.8244 - mae: 0.7325 - mse: 0.8392 - val_loss: 1.1533 - val_mae: 0.8141 - val_mse: 1.0398
+Epoch 69/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.8781 - mae: 0.7463 - mse: 0.8660 - val_loss: 1.1847 - val_mae: 0.8302 - val_mse: 1.0721
+Epoch 70/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.9144 - mae: 0.7674 - mse: 0.9274 - val_loss: 1.1543 - val_mae: 0.8159 - val_mse: 1.0428
+Epoch 71/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 1.0180 - mae: 0.7650 - mse: 0.9083 - val_loss: 1.1451 - val_mae: 0.8097 - val_mse: 1.0344
+Epoch 72/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.8476 - mae: 0.7224 - mse: 0.8095 - val_loss: 1.1480 - val_mae: 0.8114 - val_mse: 1.0382
+Epoch 73/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.8507 - mae: 0.7677 - mse: 0.9099 - val_loss: 1.1497 - val_mae: 0.8113 - val_mse: 1.0408
+Epoch 74/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.9477 - mae: 0.7814 - mse: 0.9656 - val_loss: 1.1432 - val_mae: 0.8097 - val_mse: 1.0351
+Epoch 75/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.7890 - mae: 0.7506 - mse: 0.8678 - val_loss: 1.1463 - val_mae: 0.8132 - val_mse: 1.0394
+Epoch 76/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.9640 - mae: 0.7790 - mse: 0.9233 - val_loss: 1.1131 - val_mae: 0.7973 - val_mse: 1.0070
+Epoch 77/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.8218 - mae: 0.7435 - mse: 0.8707 - val_loss: 1.1273 - val_mae: 0.8041 - val_mse: 1.0223
+Epoch 78/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.8837 - mae: 0.7295 - mse: 0.8245 - val_loss: 1.1246 - val_mae: 0.8011 - val_mse: 1.0200
+Epoch 79/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.8364 - mae: 0.7702 - mse: 0.9223 - val_loss: 1.1518 - val_mae: 0.8155 - val_mse: 1.0481
+Epoch 80/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.8724 - mae: 0.7400 - mse: 0.8685 - val_loss: 1.1170 - val_mae: 0.7988 - val_mse: 1.0141
+Epoch 81/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.9422 - mae: 0.7393 - mse: 0.8374 - val_loss: 1.0933 - val_mae: 0.7887 - val_mse: 0.9913
+Epoch 82/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.8778 - mae: 0.7186 - mse: 0.8152 - val_loss: 1.1043 - val_mae: 0.7906 - val_mse: 1.0027
+Epoch 83/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.9980 - mae: 0.7488 - mse: 0.8575 - val_loss: 1.0910 - val_mae: 0.7851 - val_mse: 0.9901
+Epoch 84/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.7765 - mae: 0.7431 - mse: 0.8329 - val_loss: 1.1230 - val_mae: 0.7995 - val_mse: 1.0228
+Epoch 85/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.8353 - mae: 0.7438 - mse: 0.8625 - val_loss: 1.0908 - val_mae: 0.7870 - val_mse: 0.9914
+Epoch 86/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.7933 - mae: 0.7416 - mse: 0.8513 - val_loss: 1.0788 - val_mae: 0.7822 - val_mse: 0.9803
+Epoch 87/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.8987 - mae: 0.7494 - mse: 0.8659 - val_loss: 1.0952 - val_mae: 0.7910 - val_mse: 0.9971
+Epoch 88/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.8187 - mae: 0.7519 - mse: 0.8720 - val_loss: 1.0828 - val_mae: 0.7793 - val_mse: 0.9852
+Epoch 89/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.8432 - mae: 0.7230 - mse: 0.8140 - val_loss: 1.0832 - val_mae: 0.7809 - val_mse: 0.9860
+Epoch 90/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.7685 - mae: 0.7246 - mse: 0.8222 - val_loss: 1.0714 - val_mae: 0.7799 - val_mse: 0.9753
+Epoch 91/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.7805 - mae: 0.7248 - mse: 0.8067 - val_loss: 1.0694 - val_mae: 0.7776 - val_mse: 0.9736
+Epoch 92/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.7958 - mae: 0.7189 - mse: 0.8223 - val_loss: 1.0714 - val_mae: 0.7773 - val_mse: 0.9762
+Epoch 93/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.8680 - mae: 0.7339 - mse: 0.8366 - val_loss: 1.0728 - val_mae: 0.7807 - val_mse: 0.9782
+Epoch 94/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.9096 - mae: 0.7374 - mse: 0.8602 - val_loss: 1.1296 - val_mae: 0.8002 - val_mse: 1.0348
+Epoch 95/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.8654 - mae: 0.7328 - mse: 0.8332 - val_loss: 1.0903 - val_mae: 0.7867 - val_mse: 0.9962
+Epoch 96/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.8417 - mae: 0.7287 - mse: 0.8282 - val_loss: 1.0615 - val_mae: 0.7742 - val_mse: 0.9682
+Epoch 97/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.8180 - mae: 0.7481 - mse: 0.8685 - val_loss: 1.0778 - val_mae: 0.7841 - val_mse: 0.9849
+Epoch 98/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.7974 - mae: 0.7225 - mse: 0.8314 - val_loss: 1.0740 - val_mae: 0.7797 - val_mse: 0.9815
+Epoch 99/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 0.7417 - mae: 0.7281 - mse: 0.8355 - val_loss: 1.0700 - val_mae: 0.7767 - val_mse: 0.9778
+Epoch 100/100
+58/58 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - loss: 1.0048 - mae: 0.7460 - mse: 0.8845 - val_loss: 1.0383 - val_mae: 0.7659 - val_mse: 0.9469
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="101">
+<div class="sourceCode" id="cb21"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Evaluate the model</span></span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>test_loss, test_mae, test_mse <span class="op">=</span> model_full.evaluate(X_test, Y_test)</span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&#39;Simple Neural Network Test Loss: </span><span class="sc">{</span>test_loss<span class="sc">:.3f}</span><span class="ch">\n</span><span class="ss"> Simple Neural Network Test MAE: </span><span class="sc">{</span>test_mae<span class="sc">:.3f}</span><span class="ch">\n</span><span class="ss">  Simple Neural Network Test MSE: </span><span class="sc">{</span>test_mse<span class="sc">:.3f}</span><span class="ss">&#39;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>8/8 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - loss: 1.0864 - mae: 0.7792 - mse: 0.9951 
+Simple Neural Network Test Loss: 1.038
+ Simple Neural Network Test MAE: 0.766
+  Simple Neural Network Test MSE: 0.947
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>Comparing with the baseline regression model's score, some key
+observations were noticed.</p>
+<p>The linear regression model has a higher R² score, indicating that it
+performs poorly. It also has an MSE of <strong>0.979</strong>, which is
+relatively poorer as compared to the neural network's
+<strong>0.947</strong>. The neural network also has an MAE of
+<strong>0.766</strong>, which indicates a smaller error in prediction as
+compared to the linear regression model.</p>
+<p>The simple neural network is slightly more effective than the
+baseline in terms of MSE. This shows that the neural network is able to
+achieve statistical power.</p>
+</div>
+<div class="cell code" data-execution_count="69">
+<div class="sourceCode" id="cb23"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Plotting training and validation MAE</span></span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">5</span>))</span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a><span class="co"># First subplot: Training and Validation MAE</span></span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a>plt.subplot(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">1</span>)  <span class="co"># First subplot</span></span>
+<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a>plt.plot(history_full.history[<span class="st">&#39;mae&#39;</span>], label<span class="op">=</span><span class="st">&#39;Training MAE&#39;</span>)</span>
+<span id="cb23-7"><a href="#cb23-7" aria-hidden="true" tabindex="-1"></a>plt.plot(history_full.history[<span class="st">&#39;val_mae&#39;</span>], label<span class="op">=</span><span class="st">&#39;Validation MAE&#39;</span>)</span>
+<span id="cb23-8"><a href="#cb23-8" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Baseline Model MAE (Mean Absolute Error)&#39;</span>)</span>
+<span id="cb23-9"><a href="#cb23-9" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Epochs&#39;</span>)</span>
+<span id="cb23-10"><a href="#cb23-10" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;MAE&#39;</span>)</span>
+<span id="cb23-11"><a href="#cb23-11" aria-hidden="true" tabindex="-1"></a>plt.legend()</span>
+<span id="cb23-12"><a href="#cb23-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-13"><a href="#cb23-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Second subplot: Training and Validation Loss</span></span>
+<span id="cb23-14"><a href="#cb23-14" aria-hidden="true" tabindex="-1"></a>plt.subplot(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">2</span>)  <span class="co"># Second subplot</span></span>
+<span id="cb23-15"><a href="#cb23-15" aria-hidden="true" tabindex="-1"></a>plt.plot(history_full.history[<span class="st">&#39;loss&#39;</span>], label<span class="op">=</span><span class="st">&#39;Training Loss&#39;</span>)</span>
+<span id="cb23-16"><a href="#cb23-16" aria-hidden="true" tabindex="-1"></a>plt.plot(history_full.history[<span class="st">&#39;val_loss&#39;</span>], label<span class="op">=</span><span class="st">&#39;Validation Loss&#39;</span>)</span>
+<span id="cb23-17"><a href="#cb23-17" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Baseline Model Loss (MSE)&#39;</span>)</span>
+<span id="cb23-18"><a href="#cb23-18" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Epochs&#39;</span>)</span>
+<span id="cb23-19"><a href="#cb23-19" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Loss&#39;</span>)</span>
+<span id="cb23-20"><a href="#cb23-20" aria-hidden="true" tabindex="-1"></a>plt.legend()</span>
+<span id="cb23-21"><a href="#cb23-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-22"><a href="#cb23-22" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb23-23"><a href="#cb23-23" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_5b77f76ddf7743fcb0d8fa4d8f251ef5/d4471f6b72099215f3bf87d4ff04ccc6cf0df366.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>In the baseline model MAE graph on the left, both the training and
+validation MAE decrease, meaning that the model is improving. Since they
+are close, the model shows that it is not entirely overfitted.</p>
+<p>While in the baseline model loss on the right, both training and
+validation loss decrease, showing that the model is learning. The loss
+follows the training loss closely, indicating proper generalisation.</p>
+</div>
+<section id="developing-an-overfitted-model" class="cell markdown">
+<h2>Developing An Overfitted Model</h2>
+<p>After establishing a baseline model with statistical power, we have
+to establish whether the model is sufficiently powerful to model the
+problem. To determine how big the model has to be, we have to develop a
+model that overfits.</p>
+<p>To test this, we designed a larger neural network with multiple
+hidden layers (64, 32, 16, and 8 neurons) and trained it on a small
+subset (50 samples) of the training data. This setup is created to
+induce overfitting, where the model learns patterns too specific to the
+training data, reducing its ability to generalise unseen samples.
+Overfitting is shown when the model achieves high accuracy on training
+data but produces a poor validation performance, this indicates that it
+memorised the data instead of learning the relationships.</p>
+</section>
+<div class="cell code" data-execution_count="78">
+<div class="sourceCode" id="cb24"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>model_overfit <span class="op">=</span> Sequential([</span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>    Dense(<span class="dv">64</span>, activation<span class="op">=</span><span class="st">&#39;relu&#39;</span>, input_dim<span class="op">=</span>X_train.shape[<span class="dv">1</span>]), </span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a>    Dense(<span class="dv">32</span>, activation<span class="op">=</span><span class="st">&#39;relu&#39;</span>),</span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a>    Dense(<span class="dv">16</span>, activation<span class="op">=</span><span class="st">&#39;relu&#39;</span>),</span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a>    Dense(<span class="dv">8</span>, activation<span class="op">=</span><span class="st">&#39;relu&#39;</span>),</span>
+<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a>    Dense(<span class="dv">1</span>)</span>
+<span id="cb24-7"><a href="#cb24-7" aria-hidden="true" tabindex="-1"></a>])</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>/Users/elginfoo/anaconda3/lib/python3.11/site-packages/keras/src/layers/core/dense.py:87: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="71">
+<div class="sourceCode" id="cb26"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="co"># small dataset for overfitting</span></span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>X_train_small <span class="op">=</span> X_train[:<span class="dv">50</span>]  </span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a>Y_train_small <span class="op">=</span> Y_train[:<span class="dv">50</span>]</span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a><span class="co"># sample weights</span></span>
+<span id="cb26-6"><a href="#cb26-6" aria-hidden="true" tabindex="-1"></a>sample_weights_small <span class="op">=</span> compute_sample_weight(class_weight<span class="op">=</span><span class="st">&#39;balanced&#39;</span>, y<span class="op">=</span>Y_train_small)</span>
+<span id="cb26-7"><a href="#cb26-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-8"><a href="#cb26-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Compile the model</span></span>
+<span id="cb26-9"><a href="#cb26-9" aria-hidden="true" tabindex="-1"></a>model_overfit.<span class="bu">compile</span>(optimizer<span class="op">=</span><span class="st">&#39;adam&#39;</span>, loss<span class="op">=</span><span class="st">&#39;mean_squared_error&#39;</span>, metrics<span class="op">=</span>[<span class="st">&#39;mae&#39;</span>])</span>
+<span id="cb26-10"><a href="#cb26-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-11"><a href="#cb26-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Train again on small dataset with sample weights</span></span>
+<span id="cb26-12"><a href="#cb26-12" aria-hidden="true" tabindex="-1"></a>history_overfit <span class="op">=</span> model_overfit.fit(X_train_small, Y_train_small, </span>
+<span id="cb26-13"><a href="#cb26-13" aria-hidden="true" tabindex="-1"></a>                                    epochs<span class="op">=</span><span class="dv">100</span>, batch_size<span class="op">=</span><span class="dv">32</span>, </span>
+<span id="cb26-14"><a href="#cb26-14" aria-hidden="true" tabindex="-1"></a>                                    validation_data<span class="op">=</span>(X_test, Y_test), </span>
+<span id="cb26-15"><a href="#cb26-15" aria-hidden="true" tabindex="-1"></a>                                    sample_weight<span class="op">=</span>sample_weights_small)</span>
+<span id="cb26-16"><a href="#cb26-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-17"><a href="#cb26-17" aria-hidden="true" tabindex="-1"></a>model_overfit.summary()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Epoch 1/100
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>2/2 ━━━━━━━━━━━━━━━━━━━━ 1s 108ms/step - loss: 0.2913 - mae: 0.4898 - val_loss: 6.8816 - val_mae: 1.6759
+Epoch 2/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 38ms/step - loss: 0.2249 - mae: 0.4306 - val_loss: 7.5218 - val_mae: 1.6989
+Epoch 3/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 40ms/step - loss: 0.2908 - mae: 0.5108 - val_loss: 7.6150 - val_mae: 1.7004
+Epoch 4/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 39ms/step - loss: 0.2799 - mae: 0.5017 - val_loss: 7.3676 - val_mae: 1.6856
+Epoch 5/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 41ms/step - loss: 0.2453 - mae: 0.4536 - val_loss: 6.8838 - val_mae: 1.6634
+Epoch 6/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 37ms/step - loss: 0.2354 - mae: 0.4439 - val_loss: 6.6405 - val_mae: 1.6556
+Epoch 7/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 35ms/step - loss: 0.2461 - mae: 0.4375 - val_loss: 6.6867 - val_mae: 1.6589
+Epoch 8/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 37ms/step - loss: 0.2362 - mae: 0.4317 - val_loss: 6.9239 - val_mae: 1.6699
+Epoch 9/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 37ms/step - loss: 0.1994 - mae: 0.3995 - val_loss: 7.2253 - val_mae: 1.6849
+Epoch 10/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 36ms/step - loss: 0.1801 - mae: 0.3856 - val_loss: 7.4176 - val_mae: 1.6936
+Epoch 11/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 37ms/step - loss: 0.1797 - mae: 0.3849 - val_loss: 7.3505 - val_mae: 1.6895
+Epoch 12/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 36ms/step - loss: 0.1718 - mae: 0.3794 - val_loss: 7.1451 - val_mae: 1.6779
+Epoch 13/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 34ms/step - loss: 0.1580 - mae: 0.3502 - val_loss: 6.9182 - val_mae: 1.6649
+Epoch 14/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 36ms/step - loss: 0.1511 - mae: 0.3419 - val_loss: 6.7986 - val_mae: 1.6557
+Epoch 15/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 35ms/step - loss: 0.1615 - mae: 0.3520 - val_loss: 6.8017 - val_mae: 1.6521
+Epoch 16/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 35ms/step - loss: 0.1602 - mae: 0.3567 - val_loss: 6.9144 - val_mae: 1.6539
+Epoch 17/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 36ms/step - loss: 0.1507 - mae: 0.3493 - val_loss: 6.9872 - val_mae: 1.6545
+Epoch 18/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 35ms/step - loss: 0.1374 - mae: 0.3271 - val_loss: 7.0124 - val_mae: 1.6533
+Epoch 19/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 33ms/step - loss: 0.1337 - mae: 0.3272 - val_loss: 6.9585 - val_mae: 1.6494
+Epoch 20/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 48ms/step - loss: 0.1157 - mae: 0.3044 - val_loss: 6.8805 - val_mae: 1.6457
+Epoch 21/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 36ms/step - loss: 0.1059 - mae: 0.2905 - val_loss: 6.7985 - val_mae: 1.6421
+Epoch 22/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 37ms/step - loss: 0.1087 - mae: 0.2951 - val_loss: 6.8003 - val_mae: 1.6422
+Epoch 23/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 36ms/step - loss: 0.1075 - mae: 0.2915 - val_loss: 6.8686 - val_mae: 1.6448
+Epoch 24/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 34ms/step - loss: 0.1038 - mae: 0.2864 - val_loss: 6.8713 - val_mae: 1.6444
+Epoch 25/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 34ms/step - loss: 0.1007 - mae: 0.2794 - val_loss: 6.8178 - val_mae: 1.6407
+Epoch 26/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 35ms/step - loss: 0.0864 - mae: 0.2546 - val_loss: 6.7283 - val_mae: 1.6348
+Epoch 27/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 34ms/step - loss: 0.0897 - mae: 0.2673 - val_loss: 6.6822 - val_mae: 1.6302
+Epoch 28/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 34ms/step - loss: 0.0804 - mae: 0.2482 - val_loss: 6.6788 - val_mae: 1.6274
+Epoch 29/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 34ms/step - loss: 0.0878 - mae: 0.2609 - val_loss: 6.7126 - val_mae: 1.6256
+Epoch 30/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 36ms/step - loss: 0.0817 - mae: 0.2523 - val_loss: 6.7250 - val_mae: 1.6240
+Epoch 31/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 36ms/step - loss: 0.0782 - mae: 0.2500 - val_loss: 6.6749 - val_mae: 1.6202
+Epoch 32/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 34ms/step - loss: 0.0712 - mae: 0.2412 - val_loss: 6.6409 - val_mae: 1.6175
+Epoch 33/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 35ms/step - loss: 0.0665 - mae: 0.2289 - val_loss: 6.5660 - val_mae: 1.6138
+Epoch 34/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 36ms/step - loss: 0.0582 - mae: 0.2106 - val_loss: 6.5230 - val_mae: 1.6112
+Epoch 35/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 34ms/step - loss: 0.0573 - mae: 0.2061 - val_loss: 6.5293 - val_mae: 1.6104
+Epoch 36/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 33ms/step - loss: 0.0629 - mae: 0.2199 - val_loss: 6.5370 - val_mae: 1.6093
+Epoch 37/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 34ms/step - loss: 0.0485 - mae: 0.1959 - val_loss: 6.4930 - val_mae: 1.6061
+Epoch 38/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 34ms/step - loss: 0.0539 - mae: 0.1992 - val_loss: 6.3942 - val_mae: 1.5998
+Epoch 39/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 38ms/step - loss: 0.0514 - mae: 0.1967 - val_loss: 6.3301 - val_mae: 1.5953
+Epoch 40/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 34ms/step - loss: 0.0451 - mae: 0.1883 - val_loss: 6.3327 - val_mae: 1.5941
+Epoch 41/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 35ms/step - loss: 0.0420 - mae: 0.1823 - val_loss: 6.3426 - val_mae: 1.5933
+Epoch 42/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 37ms/step - loss: 0.0410 - mae: 0.1749 - val_loss: 6.3611 - val_mae: 1.5926
+Epoch 43/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 38ms/step - loss: 0.0412 - mae: 0.1761 - val_loss: 6.3345 - val_mae: 1.5894
+Epoch 44/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 34ms/step - loss: 0.0402 - mae: 0.1708 - val_loss: 6.2742 - val_mae: 1.5841
+Epoch 45/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 35ms/step - loss: 0.0382 - mae: 0.1681 - val_loss: 6.2512 - val_mae: 1.5804
+Epoch 46/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 34ms/step - loss: 0.0380 - mae: 0.1726 - val_loss: 6.2472 - val_mae: 1.5776
+Epoch 47/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 34ms/step - loss: 0.0306 - mae: 0.1485 - val_loss: 6.2430 - val_mae: 1.5754
+Epoch 48/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 35ms/step - loss: 0.0296 - mae: 0.1473 - val_loss: 6.2529 - val_mae: 1.5738
+Epoch 49/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 34ms/step - loss: 0.0299 - mae: 0.1489 - val_loss: 6.2179 - val_mae: 1.5706
+Epoch 50/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 36ms/step - loss: 0.0238 - mae: 0.1323 - val_loss: 6.1565 - val_mae: 1.5669
+Epoch 51/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 33ms/step - loss: 0.0213 - mae: 0.1232 - val_loss: 6.1458 - val_mae: 1.5663
+Epoch 52/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 34ms/step - loss: 0.0249 - mae: 0.1324 - val_loss: 6.1685 - val_mae: 1.5678
+Epoch 53/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 35ms/step - loss: 0.0233 - mae: 0.1266 - val_loss: 6.1986 - val_mae: 1.5697
+Epoch 54/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 36ms/step - loss: 0.0195 - mae: 0.1180 - val_loss: 6.1969 - val_mae: 1.5698
+Epoch 55/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 35ms/step - loss: 0.0205 - mae: 0.1208 - val_loss: 6.1638 - val_mae: 1.5678
+Epoch 56/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 34ms/step - loss: 0.0199 - mae: 0.1212 - val_loss: 6.1255 - val_mae: 1.5647
+Epoch 57/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 34ms/step - loss: 0.0195 - mae: 0.1140 - val_loss: 6.1016 - val_mae: 1.5620
+Epoch 58/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 35ms/step - loss: 0.0146 - mae: 0.0949 - val_loss: 6.0683 - val_mae: 1.5590
+Epoch 59/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 34ms/step - loss: 0.0171 - mae: 0.1031 - val_loss: 6.0494 - val_mae: 1.5566
+Epoch 60/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 34ms/step - loss: 0.0168 - mae: 0.1055 - val_loss: 6.0476 - val_mae: 1.5556
+Epoch 61/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 35ms/step - loss: 0.0150 - mae: 0.0953 - val_loss: 6.0471 - val_mae: 1.5550
+Epoch 62/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 38ms/step - loss: 0.0116 - mae: 0.0837 - val_loss: 6.0134 - val_mae: 1.5526
+Epoch 63/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 37ms/step - loss: 0.0116 - mae: 0.0875 - val_loss: 5.9592 - val_mae: 1.5494
+Epoch 64/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 34ms/step - loss: 0.0136 - mae: 0.0920 - val_loss: 5.9701 - val_mae: 1.5496
+Epoch 65/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 34ms/step - loss: 0.0128 - mae: 0.0873 - val_loss: 6.0074 - val_mae: 1.5512
+Epoch 66/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 37ms/step - loss: 0.0120 - mae: 0.0867 - val_loss: 6.0187 - val_mae: 1.5514
+Epoch 67/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 35ms/step - loss: 0.0116 - mae: 0.0885 - val_loss: 5.9766 - val_mae: 1.5484
+Epoch 68/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 35ms/step - loss: 0.0091 - mae: 0.0768 - val_loss: 5.8922 - val_mae: 1.5430
+Epoch 69/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 34ms/step - loss: 0.0107 - mae: 0.0789 - val_loss: 5.8519 - val_mae: 1.5412
+Epoch 70/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 36ms/step - loss: 0.0112 - mae: 0.0824 - val_loss: 5.8986 - val_mae: 1.5432
+Epoch 71/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 36ms/step - loss: 0.0096 - mae: 0.0730 - val_loss: 5.9600 - val_mae: 1.5477
+Epoch 72/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 34ms/step - loss: 0.0100 - mae: 0.0758 - val_loss: 5.9221 - val_mae: 1.5465
+Epoch 73/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 35ms/step - loss: 0.0098 - mae: 0.0739 - val_loss: 5.8677 - val_mae: 1.5435
+Epoch 74/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 35ms/step - loss: 0.0072 - mae: 0.0623 - val_loss: 5.8422 - val_mae: 1.5411
+Epoch 75/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 34ms/step - loss: 0.0085 - mae: 0.0672 - val_loss: 5.8701 - val_mae: 1.5409
+Epoch 76/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 34ms/step - loss: 0.0069 - mae: 0.0611 - val_loss: 5.8972 - val_mae: 1.5412
+Epoch 77/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 36ms/step - loss: 0.0061 - mae: 0.0634 - val_loss: 5.8488 - val_mae: 1.5383
+Epoch 78/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 35ms/step - loss: 0.0075 - mae: 0.0646 - val_loss: 5.8050 - val_mae: 1.5358
+Epoch 79/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 34ms/step - loss: 0.0065 - mae: 0.0605 - val_loss: 5.8259 - val_mae: 1.5359
+Epoch 80/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 34ms/step - loss: 0.0055 - mae: 0.0532 - val_loss: 5.8463 - val_mae: 1.5363
+Epoch 81/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 34ms/step - loss: 0.0053 - mae: 0.0563 - val_loss: 5.8163 - val_mae: 1.5347
+Epoch 82/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 34ms/step - loss: 0.0064 - mae: 0.0550 - val_loss: 5.7981 - val_mae: 1.5342
+Epoch 83/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 42ms/step - loss: 0.0041 - mae: 0.0458 - val_loss: 5.8158 - val_mae: 1.5357
+Epoch 84/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 35ms/step - loss: 0.0053 - mae: 0.0505 - val_loss: 5.8317 - val_mae: 1.5364
+Epoch 85/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 35ms/step - loss: 0.0051 - mae: 0.0554 - val_loss: 5.8147 - val_mae: 1.5344
+Epoch 86/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 34ms/step - loss: 0.0044 - mae: 0.0505 - val_loss: 5.7441 - val_mae: 1.5297
+Epoch 87/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 35ms/step - loss: 0.0044 - mae: 0.0491 - val_loss: 5.7413 - val_mae: 1.5290
+Epoch 88/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 38ms/step - loss: 0.0051 - mae: 0.0498 - val_loss: 5.7781 - val_mae: 1.5312
+Epoch 89/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 34ms/step - loss: 0.0039 - mae: 0.0435 - val_loss: 5.7569 - val_mae: 1.5305
+Epoch 90/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 34ms/step - loss: 0.0045 - mae: 0.0457 - val_loss: 5.7096 - val_mae: 1.5279
+Epoch 91/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 34ms/step - loss: 0.0042 - mae: 0.0449 - val_loss: 5.7215 - val_mae: 1.5278
+Epoch 92/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 34ms/step - loss: 0.0037 - mae: 0.0416 - val_loss: 5.7597 - val_mae: 1.5288
+Epoch 93/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 34ms/step - loss: 0.0028 - mae: 0.0390 - val_loss: 5.7476 - val_mae: 1.5276
+Epoch 94/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 34ms/step - loss: 0.0040 - mae: 0.0441 - val_loss: 5.6818 - val_mae: 1.5242
+Epoch 95/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 34ms/step - loss: 0.0030 - mae: 0.0396 - val_loss: 5.6392 - val_mae: 1.5225
+Epoch 96/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 34ms/step - loss: 0.0028 - mae: 0.0395 - val_loss: 5.6629 - val_mae: 1.5236
+Epoch 97/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 37ms/step - loss: 0.0031 - mae: 0.0370 - val_loss: 5.7042 - val_mae: 1.5257
+Epoch 98/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 36ms/step - loss: 0.0030 - mae: 0.0401 - val_loss: 5.7119 - val_mae: 1.5254
+Epoch 99/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 35ms/step - loss: 0.0030 - mae: 0.0388 - val_loss: 5.6709 - val_mae: 1.5227
+Epoch 100/100
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 36ms/step - loss: 0.0022 - mae: 0.0319 - val_loss: 5.6415 - val_mae: 1.5209
+</code></pre>
+</div>
+<div class="output display_data">
+<pre style="white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace"><span style="font-weight: bold">Model: "sequential_13"</span>
+</pre>
+
+</div>
+<div class="output display_data">
+<pre style="white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace">┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━┓
+┃<span style="font-weight: bold"> Layer (type)                    </span>┃<span style="font-weight: bold"> Output Shape           </span>┃<span style="font-weight: bold">       Param # </span>┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━┩
+│ dense_28 (<span style="color: #0087ff; text-decoration-color: #0087ff">Dense</span>)                │ (<span style="color: #00d7ff; text-decoration-color: #00d7ff">None</span>, <span style="color: #00af00; text-decoration-color: #00af00">64</span>)             │           <span style="color: #00af00; text-decoration-color: #00af00">768</span> │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ dense_29 (<span style="color: #0087ff; text-decoration-color: #0087ff">Dense</span>)                │ (<span style="color: #00d7ff; text-decoration-color: #00d7ff">None</span>, <span style="color: #00af00; text-decoration-color: #00af00">32</span>)             │         <span style="color: #00af00; text-decoration-color: #00af00">2,080</span> │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ dense_30 (<span style="color: #0087ff; text-decoration-color: #0087ff">Dense</span>)                │ (<span style="color: #00d7ff; text-decoration-color: #00d7ff">None</span>, <span style="color: #00af00; text-decoration-color: #00af00">16</span>)             │           <span style="color: #00af00; text-decoration-color: #00af00">528</span> │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ dense_31 (<span style="color: #0087ff; text-decoration-color: #0087ff">Dense</span>)                │ (<span style="color: #00d7ff; text-decoration-color: #00d7ff">None</span>, <span style="color: #00af00; text-decoration-color: #00af00">8</span>)              │           <span style="color: #00af00; text-decoration-color: #00af00">136</span> │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ dense_32 (<span style="color: #0087ff; text-decoration-color: #0087ff">Dense</span>)                │ (<span style="color: #00d7ff; text-decoration-color: #00d7ff">None</span>, <span style="color: #00af00; text-decoration-color: #00af00">1</span>)              │             <span style="color: #00af00; text-decoration-color: #00af00">9</span> │
+└─────────────────────────────────┴────────────────────────┴───────────────┘
+</pre>
+
+</div>
+<div class="output display_data">
+<pre style="white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace"><span style="font-weight: bold"> Total params: </span><span style="color: #00af00; text-decoration-color: #00af00">10,565</span> (41.27 KB)
+</pre>
+
+</div>
+<div class="output display_data">
+<pre style="white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace"><span style="font-weight: bold"> Trainable params: </span><span style="color: #00af00; text-decoration-color: #00af00">3,521</span> (13.75 KB)
+</pre>
+
+</div>
+<div class="output display_data">
+<pre style="white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace"><span style="font-weight: bold"> Non-trainable params: </span><span style="color: #00af00; text-decoration-color: #00af00">0</span> (0.00 B)
+</pre>
+
+</div>
+<div class="output display_data">
+<pre style="white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace"><span style="font-weight: bold"> Optimizer params: </span><span style="color: #00af00; text-decoration-color: #00af00">7,044</span> (27.52 KB)
+</pre>
+
+</div>
+</div>
+<div class="cell code" data-execution_count="76">
+<div class="sourceCode" id="cb29"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Print results for the baseline and overfitted models</span></span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>test_loss_overfit, test_mae_overfit <span class="op">=</span> model_overfit.evaluate(X_test, Y_test, verbose<span class="op">=</span><span class="dv">0</span>)</span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Overfitted Model (50 samples) - Test MAE: </span><span class="sc">{</span>test_mae_overfit<span class="sc">:.3f}</span><span class="ss">&quot;</span>)</span>
+<span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Overfitted Model (50 samples) - Test Loss (MSE): </span><span class="sc">{</span>test_loss_overfit<span class="sc">:.3f}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Overfitted Model (50 samples) - Test MAE: 1.521
+Overfitted Model (50 samples) - Test Loss (MSE): 5.641
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>The overfitted model of 50 samples led to significantly worse
+performance for both MAE and MSE as compared to the first neural network
+model, as expected.</p>
+</div>
+<div class="cell code" data-execution_count="77">
+<div class="sourceCode" id="cb31"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Plotting training and validation MAE</span></span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">5</span>))</span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot Training and Validation MAE (Mean Absolute Error)</span></span>
+<span id="cb31-5"><a href="#cb31-5" aria-hidden="true" tabindex="-1"></a>plt.subplot(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">1</span>)  <span class="co"># First subplot</span></span>
+<span id="cb31-6"><a href="#cb31-6" aria-hidden="true" tabindex="-1"></a>plt.plot(history_overfit.history[<span class="st">&#39;mae&#39;</span>], label<span class="op">=</span><span class="st">&#39;Training MAE&#39;</span>)</span>
+<span id="cb31-7"><a href="#cb31-7" aria-hidden="true" tabindex="-1"></a>plt.plot(history_overfit.history[<span class="st">&#39;val_mae&#39;</span>], label<span class="op">=</span><span class="st">&#39;Validation MAE&#39;</span>)</span>
+<span id="cb31-8"><a href="#cb31-8" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Overfitted Model MAE&#39;</span>)</span>
+<span id="cb31-9"><a href="#cb31-9" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Epochs&#39;</span>)</span>
+<span id="cb31-10"><a href="#cb31-10" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Mean Absolute Error&#39;</span>)</span>
+<span id="cb31-11"><a href="#cb31-11" aria-hidden="true" tabindex="-1"></a>plt.legend()</span>
+<span id="cb31-12"><a href="#cb31-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-13"><a href="#cb31-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot Training and Validation Loss (Mean Squared Error)</span></span>
+<span id="cb31-14"><a href="#cb31-14" aria-hidden="true" tabindex="-1"></a>plt.subplot(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">2</span>)  <span class="co"># Second subplot</span></span>
+<span id="cb31-15"><a href="#cb31-15" aria-hidden="true" tabindex="-1"></a>plt.plot(history_overfit.history[<span class="st">&#39;loss&#39;</span>], label<span class="op">=</span><span class="st">&#39;Training Loss&#39;</span>)</span>
+<span id="cb31-16"><a href="#cb31-16" aria-hidden="true" tabindex="-1"></a>plt.plot(history_overfit.history[<span class="st">&#39;val_loss&#39;</span>], label<span class="op">=</span><span class="st">&#39;Validation Loss&#39;</span>)</span>
+<span id="cb31-17"><a href="#cb31-17" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Overfitted Model Loss (MSE)&#39;</span>)</span>
+<span id="cb31-18"><a href="#cb31-18" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Epochs&#39;</span>)</span>
+<span id="cb31-19"><a href="#cb31-19" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Mean Squared Error&#39;</span>)</span>
+<span id="cb31-20"><a href="#cb31-20" aria-hidden="true" tabindex="-1"></a>plt.legend()</span>
+<span id="cb31-21"><a href="#cb31-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-22"><a href="#cb31-22" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb31-23"><a href="#cb31-23" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_5b77f76ddf7743fcb0d8fa4d8f251ef5/f32c3b367fe149790dd1147efc5822ed3e3f5dd0.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>The graph depicts overfitting for both the MAE and the MSE. The wide
+gap between the training and validation curves shows that the model has
+become too complex, and fitted the training data too closely.</p>
+<p>As the training accuracy is shown to be overfitted, as it has a small
+training set and will this struggle on unseen data. Furthermore, as the
+model has 64, 32,16 and 8 neurons, it is too complex for the 50 samples.
+Thus, it creates a high variance and therefore depicts overfitting.</p>
+</div>
+<section id="regularising-model-and-tuning-hyperparameters"
+class="cell markdown">
+<h2>Regularising Model And Tuning Hyperparameters</h2>
+</section>
+<div class="cell markdown">
+<p>With the overfitting in the previous model, we then utilise
+hypertuning and regularisation techniques to improve generalisation and
+its predictivity. We would implement dropouts and L2 regularisation to
+produce a model with sufficient power for the problem.</p>
+<p>The primary method of using L2 regularisation discourages large
+weight values by adding a penalty term to the loss function. This helps
+prevent the model from relying too heavily on specific features. It can
+indirectly help with the imbalanced dataset. Additionally, dropout
+layers are used for hypertuning after each hidden layer to randomly
+deactivate neurons during training, further reducing overfitting.</p>
+</div>
+<div class="cell code" data-execution_count="79">
+<div class="sourceCode" id="cb32"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a>model_tuned <span class="op">=</span> Sequential([</span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a>    Dense(<span class="dv">8</span>, activation<span class="op">=</span><span class="st">&#39;relu&#39;</span>, input_dim<span class="op">=</span>X_train.shape[<span class="dv">1</span>], kernel_regularizer<span class="op">=</span>l2(<span class="fl">0.01</span>)),</span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a>    Dropout(<span class="fl">0.5</span>),</span>
+<span id="cb32-4"><a href="#cb32-4" aria-hidden="true" tabindex="-1"></a>    Dense(<span class="dv">1</span>) </span>
+<span id="cb32-5"><a href="#cb32-5" aria-hidden="true" tabindex="-1"></a>])</span>
+<span id="cb32-6"><a href="#cb32-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-7"><a href="#cb32-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Compile the model</span></span>
+<span id="cb32-8"><a href="#cb32-8" aria-hidden="true" tabindex="-1"></a>model_tuned.<span class="bu">compile</span>(optimizer<span class="op">=</span><span class="st">&#39;adam&#39;</span>, loss<span class="op">=</span><span class="st">&#39;mean_squared_error&#39;</span>, metrics<span class="op">=</span>[<span class="st">&#39;mae&#39;</span>])</span>
+<span id="cb32-9"><a href="#cb32-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-10"><a href="#cb32-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Train the model</span></span>
+<span id="cb32-11"><a href="#cb32-11" aria-hidden="true" tabindex="-1"></a>history_tuned <span class="op">=</span> model_tuned.fit(X_train, Y_train, epochs<span class="op">=</span><span class="dv">100</span>, batch_size<span class="op">=</span><span class="dv">32</span>, </span>
+<span id="cb32-12"><a href="#cb32-12" aria-hidden="true" tabindex="-1"></a>                                validation_data<span class="op">=</span>(X_test, Y_test), </span>
+<span id="cb32-13"><a href="#cb32-13" aria-hidden="true" tabindex="-1"></a>                                sample_weight<span class="op">=</span>sample_weights_train)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Epoch 1/100
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step - loss: 22.6641 - mae: 4.4432 - val_loss: 19.9491 - val_mae: 4.2434
+Epoch 2/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 26.4475 - mae: 4.2559 - val_loss: 18.6605 - val_mae: 4.0851
+Epoch 3/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 22.9643 - mae: 4.2108 - val_loss: 17.3664 - val_mae: 3.9197
+Epoch 4/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 22.0358 - mae: 4.0345 - val_loss: 16.2964 - val_mae: 3.7794
+Epoch 5/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 23.1239 - mae: 3.9588 - val_loss: 15.2615 - val_mae: 3.6390
+Epoch 6/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 19.3340 - mae: 3.9073 - val_loss: 14.4556 - val_mae: 3.5299
+Epoch 7/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 24.4574 - mae: 3.8005 - val_loss: 13.7806 - val_mae: 3.4414
+Epoch 8/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 17.6977 - mae: 3.6418 - val_loss: 13.1675 - val_mae: 3.3608
+Epoch 9/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 15.6096 - mae: 3.5675 - val_loss: 12.3545 - val_mae: 3.2478
+Epoch 10/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 12.4438 - mae: 3.2781 - val_loss: 11.7031 - val_mae: 3.1581
+Epoch 11/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 14.0891 - mae: 3.3254 - val_loss: 11.1663 - val_mae: 3.0855
+Epoch 12/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 12.6381 - mae: 3.3374 - val_loss: 10.6138 - val_mae: 3.0054
+Epoch 13/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 16.8827 - mae: 3.2567 - val_loss: 9.9476 - val_mae: 2.9028
+Epoch 14/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 15.2272 - mae: 3.2569 - val_loss: 9.5846 - val_mae: 2.8482
+Epoch 15/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 11.3185 - mae: 3.1291 - val_loss: 9.0461 - val_mae: 2.7586
+Epoch 16/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 13.4063 - mae: 3.1035 - val_loss: 8.5010 - val_mae: 2.6656
+Epoch 17/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 11.7846 - mae: 3.0593 - val_loss: 8.0843 - val_mae: 2.5907
+Epoch 18/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 12.0411 - mae: 2.9883 - val_loss: 7.6538 - val_mae: 2.5096
+Epoch 19/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 10.1267 - mae: 2.8950 - val_loss: 7.3091 - val_mae: 2.4463
+Epoch 20/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 10.7903 - mae: 2.8954 - val_loss: 6.9484 - val_mae: 2.3755
+Epoch 21/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 8.0077 - mae: 2.7753 - val_loss: 6.7207 - val_mae: 2.3277
+Epoch 22/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 13.3863 - mae: 2.7358 - val_loss: 6.5727 - val_mae: 2.2960
+Epoch 23/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 10.0984 - mae: 2.7986 - val_loss: 6.3744 - val_mae: 2.2531
+Epoch 24/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 8.7067 - mae: 2.7593 - val_loss: 6.1823 - val_mae: 2.2134
+Epoch 25/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 11.2894 - mae: 2.7158 - val_loss: 5.9477 - val_mae: 2.1643
+Epoch 26/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 9.4963 - mae: 2.6634 - val_loss: 5.6529 - val_mae: 2.0998
+Epoch 27/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 9.2785 - mae: 2.7313 - val_loss: 5.4534 - val_mae: 2.0565
+Epoch 28/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 7.8689 - mae: 2.5983 - val_loss: 5.3487 - val_mae: 2.0322
+Epoch 29/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 8.7080 - mae: 2.6857 - val_loss: 5.2559 - val_mae: 2.0073
+Epoch 30/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 8.4408 - mae: 2.6477 - val_loss: 5.1843 - val_mae: 1.9961
+Epoch 31/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 6.8333 - mae: 2.4746 - val_loss: 5.0499 - val_mae: 1.9675
+Epoch 32/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 10.2146 - mae: 2.4840 - val_loss: 4.9891 - val_mae: 1.9535
+Epoch 33/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 9.9152 - mae: 2.5589 - val_loss: 4.9950 - val_mae: 1.9524
+Epoch 34/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 12.4642 - mae: 2.4434 - val_loss: 4.8645 - val_mae: 1.9222
+Epoch 35/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 7.1538 - mae: 2.4682 - val_loss: 4.7532 - val_mae: 1.8988
+Epoch 36/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 7.4454 - mae: 2.4680 - val_loss: 4.6563 - val_mae: 1.8763
+Epoch 37/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 3ms/step - loss: 9.4227 - mae: 2.3152 - val_loss: 4.6672 - val_mae: 1.8781
+Epoch 38/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 8.7055 - mae: 2.4165 - val_loss: 4.5360 - val_mae: 1.8438
+Epoch 39/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 7.2135 - mae: 2.4577 - val_loss: 4.4212 - val_mae: 1.8139
+Epoch 40/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 9.2388 - mae: 2.4319 - val_loss: 4.3385 - val_mae: 1.7998
+Epoch 41/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 7.5413 - mae: 2.4070 - val_loss: 4.2572 - val_mae: 1.7848
+Epoch 42/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 8.7288 - mae: 2.2798 - val_loss: 4.1811 - val_mae: 1.7664
+Epoch 43/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 8.6989 - mae: 2.4072 - val_loss: 4.1328 - val_mae: 1.7558
+Epoch 44/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 5.7525 - mae: 2.2886 - val_loss: 4.0759 - val_mae: 1.7454
+Epoch 45/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 8.4329 - mae: 2.3679 - val_loss: 4.0896 - val_mae: 1.7561
+Epoch 46/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 7.7522 - mae: 2.2951 - val_loss: 3.9911 - val_mae: 1.7318
+Epoch 47/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 10.8379 - mae: 2.3244 - val_loss: 3.8378 - val_mae: 1.6920
+Epoch 48/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 5.9972 - mae: 2.3066 - val_loss: 3.7674 - val_mae: 1.6771
+Epoch 49/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 7.2038 - mae: 2.2706 - val_loss: 3.6168 - val_mae: 1.6314
+Epoch 50/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 9.1943 - mae: 2.1566 - val_loss: 3.4613 - val_mae: 1.5880
+Epoch 51/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 7.6935 - mae: 2.1384 - val_loss: 3.4068 - val_mae: 1.5702
+Epoch 52/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 9.4451 - mae: 2.1988 - val_loss: 3.4171 - val_mae: 1.5725
+Epoch 53/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 6.0914 - mae: 2.0848 - val_loss: 3.3955 - val_mae: 1.5705
+Epoch 54/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 5.3989 - mae: 2.0384 - val_loss: 3.3704 - val_mae: 1.5686
+Epoch 55/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 7.1484 - mae: 2.1315 - val_loss: 3.2955 - val_mae: 1.5411
+Epoch 56/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 6.5548 - mae: 2.1230 - val_loss: 3.3068 - val_mae: 1.5450
+Epoch 57/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 3ms/step - loss: 8.2956 - mae: 2.1425 - val_loss: 3.2076 - val_mae: 1.5146
+Epoch 58/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 7.8483 - mae: 2.1047 - val_loss: 3.0885 - val_mae: 1.4799
+Epoch 59/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 6.0774 - mae: 1.9864 - val_loss: 2.9938 - val_mae: 1.4523
+Epoch 60/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 5.5745 - mae: 2.1145 - val_loss: 2.9356 - val_mae: 1.4356
+Epoch 61/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 6.6356 - mae: 2.1622 - val_loss: 2.8591 - val_mae: 1.4130
+Epoch 62/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 5.7283 - mae: 2.0322 - val_loss: 2.7859 - val_mae: 1.3934
+Epoch 63/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 6.7768 - mae: 1.9773 - val_loss: 2.7255 - val_mae: 1.3779
+Epoch 64/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 6.1107 - mae: 2.0425 - val_loss: 2.6962 - val_mae: 1.3705
+Epoch 65/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 8.2051 - mae: 2.0954 - val_loss: 2.6488 - val_mae: 1.3582
+Epoch 66/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 5.5227 - mae: 1.9820 - val_loss: 2.5962 - val_mae: 1.3435
+Epoch 67/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 5.3749 - mae: 1.9330 - val_loss: 2.5072 - val_mae: 1.3175
+Epoch 68/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 6.5139 - mae: 1.9801 - val_loss: 2.5097 - val_mae: 1.3193
+Epoch 69/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 6.4904 - mae: 2.0120 - val_loss: 2.5301 - val_mae: 1.3273
+Epoch 70/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 4.9285 - mae: 1.9401 - val_loss: 2.5324 - val_mae: 1.3273
+Epoch 71/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 6.5432 - mae: 1.9996 - val_loss: 2.4313 - val_mae: 1.2964
+Epoch 72/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 6.3886 - mae: 1.9533 - val_loss: 2.3974 - val_mae: 1.2868
+Epoch 73/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 6.1073 - mae: 1.9369 - val_loss: 2.4240 - val_mae: 1.2941
+Epoch 74/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 5.8811 - mae: 1.9413 - val_loss: 2.3289 - val_mae: 1.2672
+Epoch 75/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 5.4783 - mae: 1.9257 - val_loss: 2.4064 - val_mae: 1.2906
+Epoch 76/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 4.9450 - mae: 1.9180 - val_loss: 2.3542 - val_mae: 1.2758
+Epoch 77/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 6.9336 - mae: 1.9763 - val_loss: 2.3789 - val_mae: 1.2866
+Epoch 78/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 5.1901 - mae: 1.8599 - val_loss: 2.3359 - val_mae: 1.2736
+Epoch 79/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 4.3836 - mae: 1.8109 - val_loss: 2.3083 - val_mae: 1.2664
+Epoch 80/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 4.7592 - mae: 1.8129 - val_loss: 2.2689 - val_mae: 1.2543
+Epoch 81/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 5.3246 - mae: 1.9066 - val_loss: 2.2131 - val_mae: 1.2392
+Epoch 82/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 4.4829 - mae: 1.7778 - val_loss: 2.2168 - val_mae: 1.2402
+Epoch 83/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 7.1748 - mae: 1.9728 - val_loss: 2.1619 - val_mae: 1.2232
+Epoch 84/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 4.5598 - mae: 1.8702 - val_loss: 2.0591 - val_mae: 1.1916
+Epoch 85/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 4.3487 - mae: 1.7550 - val_loss: 2.0072 - val_mae: 1.1759
+Epoch 86/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 4.6547 - mae: 1.8151 - val_loss: 1.9535 - val_mae: 1.1575
+Epoch 87/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 4.9229 - mae: 1.7595 - val_loss: 1.9547 - val_mae: 1.1590
+Epoch 88/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 4.5139 - mae: 1.7548 - val_loss: 1.9188 - val_mae: 1.1480
+Epoch 89/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 6.0006 - mae: 1.7587 - val_loss: 1.8509 - val_mae: 1.1242
+Epoch 90/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 4.3617 - mae: 1.8067 - val_loss: 1.8407 - val_mae: 1.1209
+Epoch 91/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 3.8340 - mae: 1.7333 - val_loss: 1.8202 - val_mae: 1.1139
+Epoch 92/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 4.4988 - mae: 1.8132 - val_loss: 1.8110 - val_mae: 1.1110
+Epoch 93/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 5.0861 - mae: 1.7373 - val_loss: 1.8265 - val_mae: 1.1155
+Epoch 94/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 5.0818 - mae: 1.7768 - val_loss: 1.7537 - val_mae: 1.0900
+Epoch 95/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 4.5238 - mae: 1.7206 - val_loss: 1.7762 - val_mae: 1.0989
+Epoch 96/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 5.2165 - mae: 1.7282 - val_loss: 1.7977 - val_mae: 1.1059
+Epoch 97/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 3ms/step - loss: 3.8486 - mae: 1.7106 - val_loss: 1.8036 - val_mae: 1.1088
+Epoch 98/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 5.0531 - mae: 1.7413 - val_loss: 1.8352 - val_mae: 1.1212
+Epoch 99/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 4.5092 - mae: 1.7082 - val_loss: 1.8452 - val_mae: 1.1245
+Epoch 100/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 5.7424 - mae: 1.7420 - val_loss: 1.8643 - val_mae: 1.1304
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>The term L2(0.01) means a penalty of 0.01 is applied to larger
+weights. This reduces overfitting by discouraging the model from
+assigning too much importance to specific features.</p>
+<p>A dropout value of 0.5 is used to prevent the model from memorising
+small training data. It adds a small penalty to large weights, keeping
+them smaller and more generalisable.</p>
+</div>
+<div class="cell code" data-execution_count="100">
+<div class="sourceCode" id="cb35"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Evaluate the models on the test set</span></span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a>test_loss_regularised, test_mae_regularised <span class="op">=</span> model_tuned.evaluate(X_test, Y_test, verbose<span class="op">=</span><span class="dv">0</span>)</span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Print loss and MAE for all models</span></span>
+<span id="cb35-5"><a href="#cb35-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Regularised Model with Test Loss (MSE): </span><span class="sc">{</span>test_loss_regularised<span class="sc">:.3f}</span><span class="ss">&quot;</span>)</span>
+<span id="cb35-6"><a href="#cb35-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Regularised Model Test MAE: </span><span class="sc">{</span>test_mae_regularised<span class="sc">:.3f}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Regularised Model with Test Loss (MSE): 1.864
+Regularised Model Test MAE: 1.130
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>The regularised model performs better in both the MSE and MAE as
+compared to the overfitted model. THis shows that regularisation has
+proven to be productive in reducing overfitting.</p>
+</div>
+<div class="cell code" data-execution_count="81">
+<div class="sourceCode" id="cb37"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">5</span>))</span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot Training and Validation MAE</span></span>
+<span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a>plt.subplot(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">1</span>)</span>
+<span id="cb37-5"><a href="#cb37-5" aria-hidden="true" tabindex="-1"></a>plt.plot(history_tuned.history[<span class="st">&#39;mae&#39;</span>], label<span class="op">=</span><span class="st">&#39;Training MAE&#39;</span>)</span>
+<span id="cb37-6"><a href="#cb37-6" aria-hidden="true" tabindex="-1"></a>plt.plot(history_tuned.history[<span class="st">&#39;val_mae&#39;</span>], label<span class="op">=</span><span class="st">&#39;Validation MAE&#39;</span>)</span>
+<span id="cb37-7"><a href="#cb37-7" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Tuned Model - Mean Absolute Error&#39;</span>)</span>
+<span id="cb37-8"><a href="#cb37-8" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Epochs&#39;</span>)</span>
+<span id="cb37-9"><a href="#cb37-9" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;MAE&#39;</span>)</span>
+<span id="cb37-10"><a href="#cb37-10" aria-hidden="true" tabindex="-1"></a>plt.legend()</span>
+<span id="cb37-11"><a href="#cb37-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-12"><a href="#cb37-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot Training and Validation Loss (MSE)</span></span>
+<span id="cb37-13"><a href="#cb37-13" aria-hidden="true" tabindex="-1"></a>plt.subplot(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">2</span>)</span>
+<span id="cb37-14"><a href="#cb37-14" aria-hidden="true" tabindex="-1"></a>plt.plot(history_tuned.history[<span class="st">&#39;loss&#39;</span>], label<span class="op">=</span><span class="st">&#39;Training Loss (MSE)&#39;</span>)</span>
+<span id="cb37-15"><a href="#cb37-15" aria-hidden="true" tabindex="-1"></a>plt.plot(history_tuned.history[<span class="st">&#39;val_loss&#39;</span>], label<span class="op">=</span><span class="st">&#39;Validation Loss (MSE)&#39;</span>)</span>
+<span id="cb37-16"><a href="#cb37-16" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Tuned Model - Mean Squared Error Loss&#39;</span>)</span>
+<span id="cb37-17"><a href="#cb37-17" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Epochs&#39;</span>)</span>
+<span id="cb37-18"><a href="#cb37-18" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Loss (MSE)&#39;</span>)</span>
+<span id="cb37-19"><a href="#cb37-19" aria-hidden="true" tabindex="-1"></a>plt.legend()</span>
+<span id="cb37-20"><a href="#cb37-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-21"><a href="#cb37-21" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb37-22"><a href="#cb37-22" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_5b77f76ddf7743fcb0d8fa4d8f251ef5/9d886c547b96d78d75808d6253e8077f6816e665.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>The regularised and tuned model was trained using the full dataset,
+allowing us to compare its performance with both the overfit model that
+was trained with 50 samples and the baseline model.</p>
+<p>On the model accuracy graph, both training and validation accuracy
+decrease over time, indicating that the model is improving in it's MAE.
+The gap between the training and validation shows that there is a level
+of overfitting, but not as high as the previous model.</p>
+<p>On the right graph, both training loss and validation loss decrease
+over the epochs, meaning the model is learning. The validation loss
+follows a similar pattern to training loss but is slightly higher, this
+shows that some generalisation issues still exist.</p>
+</div>
+<section id="feature-engineering" class="cell markdown">
+<h2>Feature Engineering</h2>
+<p>We take into consideration that <code>alcohol</code>,
+<code>sulphates</code>, and <code>citric acid</code> have stronger
+positive influence on wine quality, while <code>volatile acidity</code>,
+<code>total sulfur dioxide</code>, and <code>density</code> are
+negatively impacting wine quality.</p>
+<p>We would then apply transformations to highlight each correlated
+feature to the quality of the wine. Positive correlational factors would
+be emphasised while negative correlated factors could be inverted.</p>
+</section>
+<section id="inversion-of-negative-correlated-features"
+class="cell markdown">
+<h3>Inversion of Negative Correlated Features</h3>
+</section>
+<div class="cell code" data-execution_count="84">
+<div class="sourceCode" id="cb38"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a><span class="co"># negative correlation to wine quality</span></span>
+<span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a>negative_features <span class="op">=</span> [<span class="st">&#39;volatile acidity&#39;</span>, <span class="st">&#39;total sulfur dioxide&#39;</span>, <span class="st">&#39;density&#39;</span>]</span>
+<span id="cb38-3"><a href="#cb38-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb38-4"><a href="#cb38-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Invert the negative correlated features by multiplying by -1</span></span>
+<span id="cb38-5"><a href="#cb38-5" aria-hidden="true" tabindex="-1"></a>df[negative_features] <span class="op">=</span> <span class="op">-</span>df[negative_features]</span></code></pre></div>
+</div>
+<section id="weight-scaling-to-positive-correlated-features"
+class="cell markdown">
+<h3>Weight Scaling to Positive Correlated Features</h3>
+</section>
+<div class="cell code" data-execution_count="87">
+<div class="sourceCode" id="cb39"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a><span class="co"># positive correlation to wine quality</span></span>
+<span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a>positive_features <span class="op">=</span> [<span class="st">&#39;alcohol&#39;</span>, <span class="st">&#39;sulphates&#39;</span>, <span class="st">&#39;citric acid&#39;</span>]</span>
+<span id="cb39-3"><a href="#cb39-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-4"><a href="#cb39-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Scale up the positive correlated features to give them more weight</span></span>
+<span id="cb39-5"><a href="#cb39-5" aria-hidden="true" tabindex="-1"></a>scaling_factors <span class="op">=</span> {<span class="st">&#39;alcohol&#39;</span>: <span class="fl">1.5</span>, <span class="st">&#39;sulphates&#39;</span>: <span class="fl">1.2</span>, <span class="st">&#39;citric acid&#39;</span>: <span class="fl">1.3</span>}</span>
+<span id="cb39-6"><a href="#cb39-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-7"><a href="#cb39-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Apply scaling to positive features</span></span>
+<span id="cb39-8"><a href="#cb39-8" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> feature <span class="kw">in</span> positive_features:</span>
+<span id="cb39-9"><a href="#cb39-9" aria-hidden="true" tabindex="-1"></a>    df[feature] <span class="op">*=</span> scaling_factors[feature]</span>
+<span id="cb39-10"><a href="#cb39-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-11"><a href="#cb39-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Standardize the features</span></span>
+<span id="cb39-12"><a href="#cb39-12" aria-hidden="true" tabindex="-1"></a>scaler <span class="op">=</span> StandardScaler()</span>
+<span id="cb39-13"><a href="#cb39-13" aria-hidden="true" tabindex="-1"></a>X_scaled <span class="op">=</span> scaler.fit_transform(X)</span>
+<span id="cb39-14"><a href="#cb39-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Compute sample weights (example: based on class or some other criteria)</span></span>
+<span id="cb39-15"><a href="#cb39-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Flatten Y to make it 1D for class_weight</span></span>
+<span id="cb39-16"><a href="#cb39-16" aria-hidden="true" tabindex="-1"></a>sample_weights <span class="op">=</span> compute_sample_weight(class_weight<span class="op">=</span><span class="st">&#39;balanced&#39;</span>, y<span class="op">=</span>Y.flatten())  </span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="88">
+<div class="sourceCode" id="cb40"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Define a custom loss function to put more weight on positive features</span></span>
+<span id="cb40-2"><a href="#cb40-2" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> weighted_loss(y_true, y_pred):</span>
+<span id="cb40-3"><a href="#cb40-3" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Mean squared error</span></span>
+<span id="cb40-4"><a href="#cb40-4" aria-hidden="true" tabindex="-1"></a>    mse <span class="op">=</span> k.mean(k.square(y_true <span class="op">-</span> y_pred))  </span>
+<span id="cb40-5"><a href="#cb40-5" aria-hidden="true" tabindex="-1"></a>    weighted_mse <span class="op">=</span> mse <span class="op">*</span> <span class="fl">0.1</span> </span>
+<span id="cb40-6"><a href="#cb40-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> weighted_mse</span>
+<span id="cb40-7"><a href="#cb40-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-8"><a href="#cb40-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Build the neural network model</span></span>
+<span id="cb40-9"><a href="#cb40-9" aria-hidden="true" tabindex="-1"></a>model <span class="op">=</span> Sequential([</span>
+<span id="cb40-10"><a href="#cb40-10" aria-hidden="true" tabindex="-1"></a>    Dense(<span class="dv">8</span>, activation<span class="op">=</span><span class="st">&#39;relu&#39;</span>, input_dim<span class="op">=</span>X_scaled.shape[<span class="dv">1</span>], kernel_regularizer<span class="op">=</span>l2(<span class="fl">0.01</span>)),</span>
+<span id="cb40-11"><a href="#cb40-11" aria-hidden="true" tabindex="-1"></a>    Dropout(<span class="fl">0.5</span>),</span>
+<span id="cb40-12"><a href="#cb40-12" aria-hidden="true" tabindex="-1"></a>    Dense(<span class="dv">1</span>)</span>
+<span id="cb40-13"><a href="#cb40-13" aria-hidden="true" tabindex="-1"></a>])</span>
+<span id="cb40-14"><a href="#cb40-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-15"><a href="#cb40-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Compile the model with a custom loss function </span></span>
+<span id="cb40-16"><a href="#cb40-16" aria-hidden="true" tabindex="-1"></a>model.<span class="bu">compile</span>(optimizer<span class="op">=</span><span class="st">&#39;adam&#39;</span>, loss<span class="op">=</span>weighted_loss, metrics<span class="op">=</span>[<span class="st">&#39;mae&#39;</span>])</span>
+<span id="cb40-17"><a href="#cb40-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-18"><a href="#cb40-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Train the model</span></span>
+<span id="cb40-19"><a href="#cb40-19" aria-hidden="true" tabindex="-1"></a>model.fit(X_scaled, Y, epochs<span class="op">=</span><span class="dv">100</span>, batch_size<span class="op">=</span><span class="dv">32</span>, validation_split<span class="op">=</span><span class="fl">0.2</span>, sample_weight<span class="op">=</span>sample_weights)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Epoch 1/100
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>/Users/elginfoo/anaconda3/lib/python3.11/site-packages/keras/src/layers/core/dense.py:87: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step - loss: 4.0352 - mae: 6.3311 - val_loss: 4.6031 - val_mae: 5.9500
+Epoch 2/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 3.4155 - mae: 6.0923 - val_loss: 4.3562 - val_mae: 5.7785
+Epoch 3/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 3.4492 - mae: 5.9134 - val_loss: 4.1360 - val_mae: 5.6206
+Epoch 4/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 3.1022 - mae: 5.8040 - val_loss: 3.9492 - val_mae: 5.4801
+Epoch 5/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 3.2129 - mae: 5.5473 - val_loss: 3.7825 - val_mae: 5.3518
+Epoch 6/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 3.1441 - mae: 5.5301 - val_loss: 3.6444 - val_mae: 5.2439
+Epoch 7/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 3.0192 - mae: 5.2785 - val_loss: 3.5135 - val_mae: 5.1379
+Epoch 8/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 2.5999 - mae: 5.1446 - val_loss: 3.3940 - val_mae: 5.0385
+Epoch 9/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 2.8476 - mae: 5.0130 - val_loss: 3.2732 - val_mae: 4.9352
+Epoch 10/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 2.3134 - mae: 4.8281 - val_loss: 3.1644 - val_mae: 4.8400
+Epoch 11/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 2.3864 - mae: 4.7480 - val_loss: 3.0572 - val_mae: 4.7457
+Epoch 12/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 2.3183 - mae: 4.6356 - val_loss: 2.9371 - val_mae: 4.6360
+Epoch 13/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 2.2639 - mae: 4.5313 - val_loss: 2.8256 - val_mae: 4.5346
+Epoch 14/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 2.2315 - mae: 4.4389 - val_loss: 2.7264 - val_mae: 4.4425
+Epoch 15/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 2.0791 - mae: 4.2970 - val_loss: 2.6164 - val_mae: 4.3355
+Epoch 16/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 1.9842 - mae: 4.2129 - val_loss: 2.5004 - val_mae: 4.2247
+Epoch 17/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 1.8428 - mae: 4.0810 - val_loss: 2.3801 - val_mae: 4.1101
+Epoch 18/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 1.6586 - mae: 3.9444 - val_loss: 2.2400 - val_mae: 3.9733
+Epoch 19/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 1.7711 - mae: 3.8734 - val_loss: 2.0806 - val_mae: 3.8146
+Epoch 20/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 1.6962 - mae: 3.7384 - val_loss: 1.9088 - val_mae: 3.6352
+Epoch 21/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 1.4985 - mae: 3.6954 - val_loss: 1.7324 - val_mae: 3.4428
+Epoch 22/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 1.6529 - mae: 3.5886 - val_loss: 1.5543 - val_mae: 3.2333
+Epoch 23/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 1.3473 - mae: 3.5072 - val_loss: 1.4065 - val_mae: 3.0488
+Epoch 24/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 1.4446 - mae: 3.3157 - val_loss: 1.2552 - val_mae: 2.8465
+Epoch 25/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 1.3138 - mae: 3.2828 - val_loss: 1.1356 - val_mae: 2.6822
+Epoch 26/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 1.2749 - mae: 3.1821 - val_loss: 1.0538 - val_mae: 2.5665
+Epoch 27/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 1.2317 - mae: 3.0550 - val_loss: 0.9320 - val_mae: 2.3712
+Epoch 28/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 1.3110 - mae: 3.0532 - val_loss: 0.8511 - val_mae: 2.2409
+Epoch 29/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 1.1273 - mae: 2.9248 - val_loss: 0.7843 - val_mae: 2.1314
+Epoch 30/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 1.2229 - mae: 2.7725 - val_loss: 0.7253 - val_mae: 2.0329
+Epoch 31/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 1.2616 - mae: 3.0042 - val_loss: 0.6801 - val_mae: 1.9570
+Epoch 32/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 1.1699 - mae: 2.7490 - val_loss: 0.6383 - val_mae: 1.8840
+Epoch 33/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.8437 - mae: 2.5483 - val_loss: 0.6117 - val_mae: 1.8450
+Epoch 34/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.9468 - mae: 2.5884 - val_loss: 0.5755 - val_mae: 1.7799
+Epoch 35/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.9817 - mae: 2.4586 - val_loss: 0.5431 - val_mae: 1.7240
+Epoch 36/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 1.0222 - mae: 2.5786 - val_loss: 0.5202 - val_mae: 1.6878
+Epoch 37/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.9566 - mae: 2.4532 - val_loss: 0.4925 - val_mae: 1.6325
+Epoch 38/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.9191 - mae: 2.4050 - val_loss: 0.4668 - val_mae: 1.5832
+Epoch 39/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.9783 - mae: 2.5043 - val_loss: 0.4404 - val_mae: 1.5328
+Epoch 40/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.7623 - mae: 2.4185 - val_loss: 0.4199 - val_mae: 1.4938
+Epoch 41/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.9211 - mae: 2.4964 - val_loss: 0.4131 - val_mae: 1.4899
+Epoch 42/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.7723 - mae: 2.3224 - val_loss: 0.3994 - val_mae: 1.4652
+Epoch 43/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.7866 - mae: 2.4094 - val_loss: 0.3827 - val_mae: 1.4339
+Epoch 44/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 3ms/step - loss: 0.7162 - mae: 2.1563 - val_loss: 0.3639 - val_mae: 1.3950
+Epoch 45/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.8110 - mae: 2.3113 - val_loss: 0.3500 - val_mae: 1.3691
+Epoch 46/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.7328 - mae: 2.1922 - val_loss: 0.3306 - val_mae: 1.3228
+Epoch 47/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.6996 - mae: 2.2387 - val_loss: 0.3129 - val_mae: 1.2789
+Epoch 48/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.6639 - mae: 2.1950 - val_loss: 0.3074 - val_mae: 1.2716
+Epoch 49/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.5755 - mae: 2.0199 - val_loss: 0.2964 - val_mae: 1.2511
+Epoch 50/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step - loss: 0.6670 - mae: 2.0652 - val_loss: 0.2815 - val_mae: 1.2179
+Epoch 51/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.5955 - mae: 2.0223 - val_loss: 0.2747 - val_mae: 1.2101
+Epoch 52/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.6515 - mae: 2.0016 - val_loss: 0.2607 - val_mae: 1.1753
+Epoch 53/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.5907 - mae: 2.0511 - val_loss: 0.2461 - val_mae: 1.1384
+Epoch 54/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.5483 - mae: 1.9255 - val_loss: 0.2321 - val_mae: 1.1055
+Epoch 55/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.5140 - mae: 1.8405 - val_loss: 0.2166 - val_mae: 1.0607
+Epoch 56/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.6373 - mae: 1.9308 - val_loss: 0.2041 - val_mae: 1.0275
+Epoch 57/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.4730 - mae: 1.8783 - val_loss: 0.1872 - val_mae: 0.9745
+Epoch 58/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.5452 - mae: 1.8368 - val_loss: 0.1825 - val_mae: 0.9601
+Epoch 59/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.4716 - mae: 1.8133 - val_loss: 0.1779 - val_mae: 0.9476
+Epoch 60/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.5067 - mae: 1.8631 - val_loss: 0.1694 - val_mae: 0.9206
+Epoch 61/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.4711 - mae: 1.8262 - val_loss: 0.1644 - val_mae: 0.9019
+Epoch 62/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.4302 - mae: 1.7701 - val_loss: 0.1598 - val_mae: 0.8812
+Epoch 63/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.4813 - mae: 1.8270 - val_loss: 0.1522 - val_mae: 0.8634
+Epoch 64/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.4467 - mae: 1.7736 - val_loss: 0.1507 - val_mae: 0.8620
+Epoch 65/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.4793 - mae: 1.7285 - val_loss: 0.1385 - val_mae: 0.8090
+Epoch 66/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.4966 - mae: 1.8438 - val_loss: 0.1358 - val_mae: 0.8034
+Epoch 67/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.3624 - mae: 1.6837 - val_loss: 0.1348 - val_mae: 0.8006
+Epoch 68/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.4788 - mae: 1.7314 - val_loss: 0.1274 - val_mae: 0.7760
+Epoch 69/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.4292 - mae: 1.8021 - val_loss: 0.1253 - val_mae: 0.7704
+Epoch 70/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.4548 - mae: 1.7458 - val_loss: 0.1288 - val_mae: 0.7912
+Epoch 71/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.4353 - mae: 1.7096 - val_loss: 0.1260 - val_mae: 0.7794
+Epoch 72/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.3652 - mae: 1.6376 - val_loss: 0.1197 - val_mae: 0.7501
+Epoch 73/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.4246 - mae: 1.5868 - val_loss: 0.1150 - val_mae: 0.7282
+Epoch 74/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.3610 - mae: 1.6319 - val_loss: 0.1136 - val_mae: 0.7319
+Epoch 75/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.3796 - mae: 1.6213 - val_loss: 0.1196 - val_mae: 0.7644
+Epoch 76/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.3456 - mae: 1.5632 - val_loss: 0.1148 - val_mae: 0.7436
+Epoch 77/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.3550 - mae: 1.5693 - val_loss: 0.1129 - val_mae: 0.7343
+Epoch 78/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.3831 - mae: 1.6224 - val_loss: 0.1210 - val_mae: 0.7684
+Epoch 79/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.3578 - mae: 1.5801 - val_loss: 0.1202 - val_mae: 0.7671
+Epoch 80/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.3556 - mae: 1.6168 - val_loss: 0.1216 - val_mae: 0.7718
+Epoch 81/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.4278 - mae: 1.6179 - val_loss: 0.1193 - val_mae: 0.7694
+Epoch 82/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.3431 - mae: 1.5297 - val_loss: 0.1193 - val_mae: 0.7695
+Epoch 83/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.4094 - mae: 1.6565 - val_loss: 0.1164 - val_mae: 0.7558
+Epoch 84/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.3239 - mae: 1.5039 - val_loss: 0.1099 - val_mae: 0.7246
+Epoch 85/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.3037 - mae: 1.5749 - val_loss: 0.1098 - val_mae: 0.7316
+Epoch 86/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.3255 - mae: 1.5085 - val_loss: 0.1086 - val_mae: 0.7263
+Epoch 87/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.3083 - mae: 1.4924 - val_loss: 0.1127 - val_mae: 0.7474
+Epoch 88/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.3514 - mae: 1.5053 - val_loss: 0.1088 - val_mae: 0.7230
+Epoch 89/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.2993 - mae: 1.4490 - val_loss: 0.1068 - val_mae: 0.7067
+Epoch 90/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.3640 - mae: 1.5506 - val_loss: 0.1043 - val_mae: 0.7044
+Epoch 91/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.3555 - mae: 1.5823 - val_loss: 0.1028 - val_mae: 0.6972
+Epoch 92/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.3024 - mae: 1.4685 - val_loss: 0.1021 - val_mae: 0.6900
+Epoch 93/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.3365 - mae: 1.5185 - val_loss: 0.1056 - val_mae: 0.7060
+Epoch 94/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.3647 - mae: 1.5318 - val_loss: 0.1058 - val_mae: 0.7038
+Epoch 95/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.2827 - mae: 1.4634 - val_loss: 0.1086 - val_mae: 0.7189
+Epoch 96/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.4163 - mae: 1.5483 - val_loss: 0.1027 - val_mae: 0.6936
+Epoch 97/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.3319 - mae: 1.5479 - val_loss: 0.1017 - val_mae: 0.6928
+Epoch 98/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.3253 - mae: 1.5240 - val_loss: 0.1039 - val_mae: 0.7061
+Epoch 99/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.3286 - mae: 1.5791 - val_loss: 0.1006 - val_mae: 0.6803
+Epoch 100/100
+29/29 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step - loss: 0.2560 - mae: 1.4856 - val_loss: 0.1017 - val_mae: 0.6878
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="88">
+<pre><code>&lt;keras.src.callbacks.history.History at 0x3187868d0&gt;</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="95">
+<div class="sourceCode" id="cb45"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Evaluate the model</span></span>
+<span id="cb45-2"><a href="#cb45-2" aria-hidden="true" tabindex="-1"></a>test_loss, test_mae <span class="op">=</span> model.evaluate(X_scaled, Y, verbose<span class="op">=</span><span class="dv">0</span>)</span>
+<span id="cb45-3"><a href="#cb45-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Feature Engineering Test Loss (MSE): </span><span class="sc">{</span>test_loss<span class="sc">:.3f}</span><span class="ss">&quot;</span>)</span>
+<span id="cb45-4"><a href="#cb45-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Feature Engineering Test MAE: </span><span class="sc">{</span>test_mae<span class="sc">:.3f}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Feature Engineering Test Loss (MSE): 0.085
+Feature Engineering Test MAE: 0.742
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>The feature engineered model outperforms the other models in both the
+MSE and MAE. This indicates that the use of feature engineering was
+effective in improving the model's performance.</p>
+</div>
+<section id="testing-and-comparisons" class="cell markdown">
+<h2>Testing and Comparisons</h2>
+</section>
+<div class="cell markdown">
+<table>
+<colgroup>
+<col style="width: 41%" />
+<col style="width: 25%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Model</strong></th>
+<th><strong>Test Loss (MSE)</strong></th>
+<th><strong>Test MAE</strong></th>
+<th><strong>R² Score</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Regularised Model</strong></td>
+<td>1.864</td>
+<td>1.130</td>
+<td>-</td>
+</tr>
+<tr class="even">
+<td><strong>Overfitted Model (50 samples)</strong></td>
+<td>5.641</td>
+<td>1.521</td>
+<td>-</td>
+</tr>
+<tr class="odd">
+<td><strong>Simple Neural Network</strong></td>
+<td>1.038</td>
+<td>0.766</td>
+<td>-</td>
+</tr>
+<tr class="even">
+<td><strong>Baseline</strong></td>
+<td>0.979</td>
+<td>-</td>
+<td>-0.759</td>
+</tr>
+<tr class="odd">
+<td><strong>Feature Engineering</strong></td>
+<td>0.085</td>
+<td>0.742</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell markdown">
+<p>When comparing the models, the feature engineering model performs the
+best, with the lowest test loss(MSE) and MAE. The regularised model has
+a higher loss and MAE suggesting that regularisation helps, but it is
+still outperformed by the feature-engineered model. The overfitted model
+shows the highest loss and MAE, confirming that it overfitted with
+poorer generalisation.</p>
+</div>
+<section id="conclusion" class="cell markdown">
+<h2>Conclusion</h2>
+<p>The final model (Feature Engineering) with a test loss of
+<strong>0.085</strong> and a test mean absolute value of
+<strong>0.742</strong> shows that it can be used in the real-world
+setting. Although it has a lower error rate than the others, it will
+still need to be adjusted to be more robust and scalable before being
+used in real-world settings.</p>
+<p>The use of L2 regularisation has shown to be effective in reducing
+overfitting, reducing the training loss from <strong>5.641</strong> in
+the overfitted model, to <strong>1.864</strong>. The use of Dropout has
+also proven to be essential in producing a better performance in the
+model.</p>
+<p>With further research, there are some improvements that can be made
+to the model to produce a much more accurate and effecient result.</p>
+<p>Convolutional layers enhance accuracy and reduces overfitting. With
+densely connected layers, the use of dropout and L2 regularisation can
+create overfitting, particularly with smaller datasets. The model often
+requires larger datasets for more effective and accurate training. By
+utilising convolitions, we can ensure that smaller models that utilise
+smaller datasets can learn much effeciently and quickly, and thus
+improving its accuracy.</p>
+<p>The wine dataset, while comprehensive, might not fully represent the
+range of possible wine compositions. Certain combinations of chemical
+compositions may be underrepresented. To prevent this, data augmentation
+can be utilised. By using controlled variations to existing data
+points—such as adding small random noise to chemical compositions or
+creating synthetic data points that interpolate between existing ones—we
+can expand the dataset's diversity. This increased diversity helps the
+model learn more generalisable relationships between chemical properties
+and wine quality.</p>
+</section>
+<section id="references" class="cell markdown">
+<h2>References</h2>
+<ul>
+<li><p>Chollet, François. Deep Learning with Python. Manning, 2017 [Last
+Accessed (February 2025)].</p></li>
+<li><p>Encord. (2023). Convolutional Neural Networks Explained. [Online]
+Available at: <a
+href="https://encord.com/blog/convolutional-neural-networks-explained/"
+class="uri">https://encord.com/blog/convolutional-neural-networks-explained/</a>
+[Last Accessed (February 2025)].</p></li>
+<li><p>AI-Pro. (2023). A Brief Explanation of Convolutional Neural
+Networks (CNNs). [Online] Available at: <a
+href="https://ai-pro.org/learn-ai/articles/a-brief-explanation-of-convolutional-neural-networks-cnns/"
+class="uri">https://ai-pro.org/learn-ai/articles/a-brief-explanation-of-convolutional-neural-networks-cnns/</a>
+[Last Accessed (February 2025)].</p></li>
+<li><p>DataCamp. (2023). Feature Extraction Machine Learning. [Online]
+Available at: <a
+href="https://www.datacamp.com/tutorial/feature-extraction-machine-learning"
+class="uri">https://www.datacamp.com/tutorial/feature-extraction-machine-learning</a>
+[Last Accessed (February 2025)].</p></li>
+<li><p>DataCamp. (2023). Complete Guide Data Augmentation. [Online]
+Available at: <a
+href="https://www.datacamp.com/tutorial/complete-guide-data-augmentation"
+class="uri">https://www.datacamp.com/tutorial/complete-guide-data-augmentation</a>
+[Last Accessed (February 2025)].</p></li>
+<li><p>Jain, A. (2018). Data Augmentation. [Online] Medium. Available
+at: <a
+href="https://medium.com/@abhishekjainindore24/data-augmentation-00c72f5f4c54"
+class="uri">https://medium.com/@abhishekjainindore24/data-augmentation-00c72f5f4c54</a>
+[Last Accessed (February 2025)].</p></li>
+</ul>
+</section>
+</body>
+</html>
